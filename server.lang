@@ -3555,6 +3555,7 @@ io.gamepackethandler.sceneUpdateSent = Mise à jour de la scène envoyée à tou
 io.gamepackethander.sceneUpdateSentToPlayer = Mise à jour de la scène envoyée à{name}
 io.gamepackethandler.playerNotFound = Impossible de trouver un joueur portant le nom{name}
 
+# https://github.com/h3pha/HytaleFR
 # = = =  itemSets = = = 
 
 itemSets.Tool_Thorium = Outils en thorium
@@ -7826,3 +7827,4 @@ universe.backup.error = Une erreur s'est produite lors de la création d'une sau
 
 world.spawn.notSet = Le monde '{worldName}' n'a pas de point d'apparition défini !
 world.notFound = Impossible de trouver le monde '{worldName}' !
+
