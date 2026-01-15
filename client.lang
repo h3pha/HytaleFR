@@ -72,13 +72,13 @@ assetEditor.mapEditor.empty = Cette map est vide
 assetEditor.mapEditor.header = {count} Entrées de map
 
 assetEditor.jsonObjectEditor.json = JSON
-assetEditor.jsonObjectEditor.jsonParseError = JSON : Échec de l'analyse
+assetEditor.jsonObjectEditor.jsonParseError = JSON: Échec de l'analyse
 
 assetEditor.changelogModal.newVersion = Nouveau
 assetEditor.changelogModal.title = Quoi de neuf
 
-assetEditor.backends.local = Édition : Assets locaux
-assetEditor.backends.server = Édition : Assets serveur
+assetEditor.backends.local = Édition: Assets locaux
+assetEditor.backends.server = Édition: Assets serveur
 assetEditor.backends.tooltip = Cliquer pour ouvrir le répertoire d'exportation
 
 assetEditor.mode.editor = Éditeur
@@ -107,15 +107,15 @@ assetEditor.property.pasteValue = Coller la valeur
 assetEditor.property.map.insertLabel = Insérer
 assetEditor.property.errors.keyAlreadyExists = Cette clé est déjà utilisée
 
-assetEditor.property.tooltip.arrayItem = Index : {index}
-assetEditor.property.tooltip.mapItem = Clé : {key}
+assetEditor.property.tooltip.arrayItem = Index: {index}
+assetEditor.property.tooltip.mapItem = Clé: {key}
 assetEditor.property.tooltip.inheritedProperty = Hérité de {asset} => {value}
 assetEditor.property.tooltip.listEntries = {count} Entrées de liste
 assetEditor.property.tooltip.objectEntries = {count} Entrées d'objet
 
 assetEditor.configEditor.button.collapseAll = Tout réduire
 assetEditor.configEditor.button.expandAll = Tout déplier
-assetEditor.configEditor.button.showDefinedProperties = Basculer : Afficher uniquement les propriétés définies
+assetEditor.configEditor.button.showDefinedProperties = Basculer: Afficher uniquement les propriétés définies
 assetEditor.configEditor.button.quickInspect = Inspection rapide
 
 assetEditor.sourceEditor.apply = Appliquer les changements
@@ -133,7 +133,7 @@ assetEditor.fileSelector.createDirectory = Créer un dossier
 assetEditor.fileSelector.newDirectoryNamePlaceholder = Nom du nouveau dossier...
 
 assetEditor.timelineEditor.insertAt = Insérer une valeur à {hour}
-assetEditor.timelineEditor.updateAt = Heure : {hour}\n\
+assetEditor.timelineEditor.updateAt = Heure: {hour}\n\
 \n\
 Clic-droit pour supprimer
 
@@ -172,7 +172,7 @@ assetEditor.renameModal.renameButton = Renommer
 assetEditor.renameModal.newId = Nouvel ID
 assetEditor.renameModal.newName = Nouveau Nom
 assetEditor.renameModal.errors.invalidId = Veuillez entrer un ID valide. Un ID ne peut contenir que des lettres, des chiffres, et _ pour marquer certaines catégories d'ID.
-assetEditor.renameModal.warning = Attention : Renommer un asset ne changera pas les références à celui-ci dans d'autres fichiers JSON. Cette action pourrait casser d'autres assets.
+assetEditor.renameModal.warning = Attention: Renommer un asset ne changera pas les références à celui-ci dans d'autres fichiers JSON. Cette action pourrait casser d'autres assets.
 
 assetEditor.idValidation.empty = Le champ ID ne peut pas être vide
 assetEditor.idValidation.minLength = Un ID doit comporter au moins {count} caractères
@@ -187,8 +187,8 @@ assetEditor.createAssetModal.assetPack = Pack d'assets
 assetEditor.createAssetModal.assetType = Type d'asset
 assetEditor.createAssetModal.folder = Dossier
 assetEditor.createAssetModal.assetId = ID d'asset Unique
-assetEditor.createAssetModal.assetIdHelp = Caractères autorisés : A-Z 0-9 _\\
-Exemples : Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
+assetEditor.createAssetModal.assetIdHelp = Caractères autorisés: A-Z 0-9 _\\
+Exemples: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
 assetEditor.createAssetModal.copyAsset = Copier l'asset
 assetEditor.createAssetModal.tab.properties = Propriétés
 assetEditor.createAssetModal.tab.source = Source
@@ -259,7 +259,7 @@ assetEditor.errors.deleteDirectoryOther = Échec de la suppression du répertoir
 assetEditor.errors.directoryInvalidCharacters = Les noms de répertoires ne peuvent pas inclure de caractères tels que \ ou /
 assetEditor.errors.exportInProgress = Un export est toujours en cours
 assetEditor.errors.cannotRevealUnexportedAsset = Impossible d'afficher le fichier dans l'explorateur/finder car le fichier n'a pas encore été exporté.
-assetEditor.errors.cannotPasteWrongType = Impossible de coller la valeur : type invalide
+assetEditor.errors.cannotPasteWrongType = Impossible de coller la valeur: type invalide
 
 assetEditor.messages.assetExport.success = {count} assets ont été sauvegardés
 assetEditor.messages.assetExport.none = Aucun asset n'a été sauvegardé
@@ -308,13 +308,13 @@ assetEditor.options.settings = Paramètres
 
 assetEditor.tabs.tooltip = Asset {type}\n\
 \n\
-Pack : {pack}
+Pack: {pack}
 
 assetEditor.packModal.title.edit = Modifier le Pack
 assetEditor.packModal.title.add = Ajouter un Pack
 assetEditor.packModal.readOnlyMessage = Ce pack est en lecture seule et ne peut pas être modifié.
 assetEditor.packModal.editModeNote = Changer le Nom ou le Groupe d'un pack d'assets ne prendra effet qu'après redémarrage du serveur.
-assetEditor.packModal.identifierChangeWarning = ATTENTION : Vous changez l'identifiant du pack (Nom ou Groupe). Ce changement prendra effet immédiatement mais peut causer un comportement inattendu. Les assets référençant ce pack peuvent devenir cassés jusqu'au redémarrage du serveur.
+assetEditor.packModal.identifierChangeWarning = ATTENTION: Vous changez l'identifiant du pack (Nom ou Groupe). Ce changement prendra effet immédiatement mais peut causer un comportement inattendu. Les assets référençant ce pack peuvent devenir cassés jusqu'au redémarrage du serveur.
 assetEditor.packModal.field.name = Nom
 assetEditor.packModal.field.name.placeholder = Nom du pack (un identifiant unique pour le pack)
 assetEditor.packModal.field.group = Groupe
@@ -346,7 +346,7 @@ Les packs d'assets zippés ne peuvent pas être modifiés, seuls les packs basé
 \n\
 Vous pouvez surcharger des assets via un pack d'assets personnalisé.
 
-assetEditor.inheritanceWarning.message = Attention : Cet asset a un Parent et l'héritage n'est pas encore supporté dans l'éditeur de propriétés.
+assetEditor.inheritanceWarning.message = Attention: Cet asset a un Parent et l'héritage n'est pas encore supporté dans l'éditeur de propriétés.
 assetEditor.inheritanceWarning.tooltip = Cet asset hérite des propriétés d'un autre asset (spécifié dans la propriété "Parent").\n\n\
 L'éditeur de propriétés ne supporte pas encore totalement l'héritage et vous montrera uniquement les propriétés définies dans cet asset. \n\n\
 Les propriétés qui utilisent une valeur de l'asset parent sont marquées d'un *.
@@ -360,7 +360,7 @@ assetEditor.confirmationModal.typeToConfirm = Tapez "{value}" pour confirmer :
 assetEditor.deletePackModal.title = Supprimer le Pack d'Assets ?
 assetEditor.deletePackModal.text = Êtes-vous sûr de vouloir supprimer le pack d'assets "{packId}" ?\n\
 \n\
-ATTENTION : C'est une opération DANGEREUSE !\n\
+ATTENTION: C'est une opération DANGEREUSE !\n\
 \n\
 • Tous les assets dans ce pack seront supprimés définitivement\n\
 • Supprimer un pack d'assets en cours d'exécution peut mener à des comportements inattendus, des crashs ou une corruption de données\n\
@@ -567,7 +567,7 @@ builderTools.legend.PaintBrush.Page2.MaskConfigDescription = Cliquez sur l'icôn
 builderTools.legend.PaintBrush.Page3.Title = Pinceaux Scriptables / Placement Air
 builderTools.legend.PaintBrush.Page3.Description = Pinceaux scriptables\n\
 Vous pouvez créer une logique de placement de blocs personnalisée en utilisant des commandes et des assets comme "River Brush", "Mountain Brush", et tout autre pinceau que vous pouvez imaginer !
-builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = Pour créer vos propres pinceaux, jetez un œil aux exemples fournis dans le répertoire Assets/MacroCommands/Brushes/ des assets. Vous pouvez utiliser la commande en jeu /help pour en savoir plus sur chaque opération de config de pinceau disponible. Vous devrez aussi créer un objet Pinceau ; regardez dans le répertoire Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ pour des exemples de ces objets.
+builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = Pour créer vos propres pinceaux, jetez un oeil aux exemples fournis dans le répertoire Assets/MacroCommands/Brushes/ des assets. Vous pouvez utiliser la commande en jeu /help pour en savoir plus sur chaque opération de config de pinceau disponible. Vous devrez aussi créer un objet Pinceau ; regardez dans le répertoire Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ pour des exemples de ces objets.
 builderTools.legend.PaintBrush.Page3.TestingBrushesTitle = Test de Pinceaux en Développement
 builderTools.legend.PaintBrush.Page3.TestingBrushesDescription = Utilisez '/sb load' pour ouvrir une UI et parcourir tous les pinceaux scriptés disponibles, ou '/sb load <name>' pour charger un pinceau spécifique directement. Cela vous permet de tester des pinceaux sans avoir besoin de créer un objet d'abord. Utilisez '/sb clear' pour désactiver quand vous avez fini.
 
@@ -610,8 +610,8 @@ builderTools.legend.MachinimaTool.Page2.ReferenceHeader = Référence
 builderTools.legend.MachinimaTool.Page2.ReferenceDesc = Points marqueurs invisibles. Utile pour ciblage et positions de référence. Permet de définir des cibles de caméra pour suivre les points.
 builderTools.legend.MachinimaTool.Page2.ItemHeader = Objet
 builderTools.legend.MachinimaTool.Page2.ItemDesc = Affiche des objets dans le monde. Peut être positionné et animé.
-builderTools.legend.MachinimaTool.Page2.AddActorCommand = Commande : .mach actor add [type] [nom]\n\
-Types : camera, entity, player, ref, item
+builderTools.legend.MachinimaTool.Page2.AddActorCommand = Commande: .mach actor add [type] [nom]\n\
+Types: camera, entity, player, ref, item
 
 builderTools.legend.MachinimaTool.Page3.Title = Contrôles de Lecture
 builderTools.legend.MachinimaTool.Page3.Description = Les contrôles de lecture vous permettent de prévisualiser votre scène en animant tous les acteurs le long de leurs chemins d'images clés. Utilisez-les pour parcourir le temps, sauter entre les images clés, et tester vos animations. Chaque frame mettra à jour tous les acteurs le long de leurs chemins d'images clés, exécutant les animations.
@@ -637,7 +637,7 @@ builderTools.legend.MachinimaTool.Page4.EditFrameTime = Changer quand cette imag
 builderTools.legend.MachinimaTool.Page4.AdjustFrameTime = Décaler le timing de l'image clé plus tôt ou plus tard
 
 builderTools.legend.MachinimaTool.Page5.Title = Interactions Souris
-builderTools.legend.MachinimaTool.Page5.Description = Cliquez sur les nœuds d'images clés dans le monde pour interagir :
+builderTools.legend.MachinimaTool.Page5.Description = Cliquez sur les noeuds d'images clés dans le monde pour interagir :
 builderTools.legend.MachinimaTool.Page5.SelectKeyframe = Sélectionner image clé (entrer en mode Déplacement Libre)
 builderTools.legend.MachinimaTool.Page5.JumpToKeyframe = Définir comme active et sauter à la frame
 builderTools.legend.MachinimaTool.Page5.GizmoTitle = Contrôles Gizmo :
@@ -661,7 +661,7 @@ builderTools.legend.MachinimaTool.Page6.SceneModeDesc = Déplace l'origine de la
 builderTools.legend.MachinimaTool.Page7.Title = Affichage & origine
 builderTools.legend.MachinimaTool.Page7.DisplayTitle = Bascules d'affichage :
 builderTools.legend.MachinimaTool.Page7.ToggleDisplay = Basculer l'affichage overlay éditeur
-builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Basculer la visibilité des nœuds de chemin
+builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Basculer la visibilité des noeuds de chemin
 builderTools.legend.MachinimaTool.Page7.ToggleCamera = Basculer l'acteur caméra on/off
 builderTools.legend.MachinimaTool.Page7.ToggleFrustum = Basculer l'affichage du frustum caméra
 builderTools.legend.MachinimaTool.Page7.OriginTitle = Contrôles d'Origine de Scène :
@@ -683,12 +683,12 @@ builderTools.legend.MachinimaTool.Page8.SmoothBezier = Lisser les poignées
 builderTools.legend.MachinimaTool.Page8.EnableSpline = Activer Spline
 
 builderTools.legend.MachinimaTool.Page9.Title = Commandes Console
-builderTools.legend.MachinimaTool.Page9.SceneCommands = Scène : .mach scene [list | add | remove | save | load | copy | set | rename | rotate | clear]
-builderTools.legend.MachinimaTool.Page9.ActorCommands = Acteur : .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
-builderTools.legend.MachinimaTool.Page9.EventCommands = Événements : .mach event [list | add | remove]\n\
-Types d'événement : animation, camera, command, particle, target
-builderTools.legend.MachinimaTool.Page9.FileCommands = Fichiers : .mach save | load | files | zip | autosave [secondes]
-builderTools.legend.MachinimaTool.Page9.UtilityCommands = Utilitaire : .mach tool | fps [valeur] | speed [valeur] | align | demo [1-7] | restart
+builderTools.legend.MachinimaTool.Page9.SceneCommands = Scène: .mach scene [list | add | remove | save | load | copy | set | rename | rotate | clear]
+builderTools.legend.MachinimaTool.Page9.ActorCommands = Acteur: .mach actor [list | add | remove | set | model | move | clone | rotate | scale | clear]
+builderTools.legend.MachinimaTool.Page9.EventCommands = Événements: .mach event [list | add | remove]\n\
+Types d'événement: animation, camera, command, particle, target
+builderTools.legend.MachinimaTool.Page9.FileCommands = Fichiers: .mach save | load | files | zip | autosave [secondes]
+builderTools.legend.MachinimaTool.Page9.UtilityCommands = Utilitaire: .mach tool | fps [valeur] | speed [valeur] | align | demo [1-7] | restart
 
 builderTools.legend.PasteTool.Page1.Title = Pinceau de Collage de Préfabriqué
 builderTools.legend.PasteTool.Page1.Description = Vous permet de coller rapidement des préfabriqués comme si vous utilisiez un pinceau. Supporte la plupart des fonctionnalités du Pinceau.
@@ -777,7 +777,7 @@ builderTools.legend.RulerTool.Page1.Description = L'Outil Règle vous permet de 
 builderTools.legend.RulerTool.Page1.PlacePoint = Placer un point de mesure à votre emplacement cible
 builderTools.legend.RulerTool.Page1.EndCurrentLine = Terminer la ligne de mesure actuelle et en commencer une nouvelle
 builderTools.legend.RulerTool.Page1.SnapToAngles = Maintenir pour activer l'aimantation aux angles de 45° pour des mesures précises
-builderTools.legend.RulerTool.Page1.DistanceMeasurement = Les mesures de distance sont affichées à chaque point et le long de chaque segment de ligne. Les lignes ont un code couleur : Rouge (Axe X), Vert (Axe Y), Bleu (Axe Z), Blanc (diagonale)
+builderTools.legend.RulerTool.Page1.DistanceMeasurement = Les mesures de distance sont affichées à chaque point et le long de chaque segment de ligne. Les lignes ont un code couleur: Rouge (Axe X), Vert (Axe Y), Bleu (Axe Z), Blanc (diagonale)
 
 builderTools.legend.RulerTool.Page2.Title = Édition Points & Lignes
 builderTools.legend.RulerTool.Page2.PointEditing = Édition des points existants :
@@ -792,7 +792,7 @@ builderTools.legend.RulerTool.Page3.Description = L'Outil Règle supporte la cr�
 builderTools.legend.RulerTool.Page3.NextLine = Passer à la ligne de mesure suivante
 builderTools.legend.RulerTool.Page3.PreviousLine = Passer à la ligne de mesure précédente
 builderTools.legend.RulerTool.Page3.SwitchToLine = Clic-gauche sur un point d'une autre ligne pour passer à cette ligne
-builderTools.legend.RulerTool.Page3.WorkflowTip = Astuce : Après avoir placé des points sur une ligne, clic-gauche pour la finir et commencer automatiquement une nouvelle ligne. Les lignes inactives sont affichées avec une opacité réduite.
+builderTools.legend.RulerTool.Page3.WorkflowTip = Astuce: Après avoir placé des points sur une ligne, clic-gauche pour la finir et commencer automatiquement une nouvelle ligne. Les lignes inactives sont affichées avec une opacité réduite.
 
 builderTools.legend.SelectPrefabTool.Page1.Title = Sélecteur de Préfabriqué
 builderTools.legend.SelectPrefabTool.Page1.Description = L'éditeur de préfabriqué crée un environnement temporaire pour éditer les préfabriqués et les sauvegarder à nouveau. Si vous quittez l'éditeur de préfabriqué sans sauvegarder, vos changements seront perdus.
@@ -928,9 +928,9 @@ contentCreation.navigation.assetEditor.tooltipDesc = Lance un programme externe 
 contentCreation.navigation.blockbench = Éditeur de Modèle
 contentCreation.navigation.blockbench.tooltipTitle = Lancer l'App Blockbench (Éditeur de Modèle)
 contentCreation.navigation.blockbench.tooltipDesc = Créez vos propres modèles et animations pour Hytale.
-contentCreation.navigation.nodeeditor = Éditeur de Nœud d'Asset
-contentCreation.navigation.nodeeditor.tooltipTitle = Lancer l'App Éditeur de Nœud d'Asset
-contentCreation.navigation.nodeeditor.tooltipDesc = Éditez les assets en utilisant un éditeur de script visuel par nœuds.
+contentCreation.navigation.nodeeditor = Éditeur de Noeud d'Asset
+contentCreation.navigation.nodeeditor.tooltipTitle = Lancer l'App Éditeur de Noeud d'Asset
+contentCreation.navigation.nodeeditor.tooltipDesc = Éditez les assets en utilisant un éditeur de script visuel par noeuds.
 contentCreation.navigation.machinima = Machinima
 contentCreation.navigation.machinima.tooltipTitle = Ouvrir l'Éditeur Machinima
 contentCreation.navigation.machinima.tooltipDesc = Créez vos propres films dans Hytale en utilisant l'éditeur Machinima.
@@ -941,7 +941,7 @@ contentCreation.navigation.buildertools.tooltipDesc = Outils d'Édition de Bloc 
 Modifiez les blocs dans votre monde avec les outils d'édition de bloc trouvés dans les onglets outils de l'inventaire créatif.
 
 contentCreation.modal.nodeeditor.nonsupported.title = Plateforme non supportée
-contentCreation.modal.nodeeditor.nonsupported.text = L'éditeur de nœud n'est actuellement pas supporté sur votre plateforme.\n\nPour le moment nous ne supportons que Windows et travaillons à apporter cette fonctionnalité à toutes les plateformes PC.
+contentCreation.modal.nodeeditor.nonsupported.text = L'éditeur de noeud n'est actuellement pas supporté sur votre plateforme.\n\nPour le moment nous ne supportons que Windows et travaillons à apporter cette fonctionnalité à toutes les plateformes PC.
 
 contentCreation.navigation.worldtools = Monde
 contentCreation.navigation.worldtools.prefabEditor = Éditeur de Préfabriqué
@@ -970,11 +970,11 @@ controls.timeline.tooltip.stop = Stop
 controls.timeline.tooltip.addTrack = Ajouter Piste
 controls.timeline.button.autoRestart = Redémarrage Auto
 controls.timeline.tooltip.toggleLoop = Basculer Boucle
-controls.timeline.label.time = Temps : {time}s
-controls.timeline.label.frame = Frame : {frame}
-controls.timeline.label.duration = Durée : {duration}
-controls.timeline.label.fps = FPS : {fps}
-controls.timeline.tooltip.keyframe = Frame : {time}
+controls.timeline.label.time = Temps: {time}s
+controls.timeline.label.frame = Frame: {frame}
+controls.timeline.label.duration = Durée: {duration}
+controls.timeline.label.fps = FPS: {fps}
+controls.timeline.tooltip.keyframe = Frame: {time}
 # === devTools ===
 devTools.tabs.Console = Console
 devTools.tabs.GameInfo = Infos Jeu
@@ -1280,7 +1280,7 @@ inventory.action.placeOne = Placer un
 inventory.action.resizeMod = Redimensionner x5
 
 # === itemTooltip ===
-itemTooltip.resourceType.name = Ressource : {name}
+itemTooltip.resourceType.name = Ressource: {name}
 itemTooltip.id = ID :
 itemTooltip.utility = Utilitaire
 itemTooltip.consumable = Consommable
@@ -1467,7 +1467,7 @@ mainMenu.onlinePlay.title = Multijoueur
 mainMenu.onlinePlay.shareCode = Code de Partage
 mainMenu.onlinePlay.shareCode.hintActive = Partagez ce code avec des amis pour qu'ils puissent rejoindre votre monde via 'Rejoindre avec un code' dans le menu Serveurs.
 mainMenu.onlinePlay.shareCode.hintInactive = Activez 'Autoriser d'Autres Joueurs à Rejoindre' et appuyez sur Sauvegarder pour obtenir votre code de partage.
-mainMenu.onlinePlay.shareCode.ipWarning = Attention : Ce code de partage contient votre adresse IP. Ne partagez qu'avec des personnes de confiance.
+mainMenu.onlinePlay.shareCode.ipWarning = Attention: Ce code de partage contient votre adresse IP. Ne partagez qu'avec des personnes de confiance.
 mainMenu.onlinePlay.shareCode.placeholder = Pas encore de code de partage
 mainMenu.onlinePlay.shareCode.copy = Copier dans le Presse-papiers
 mainMenu.onlinePlay.setting.allowPlayers = Autoriser d'Autres Joueurs à Rejoindre
@@ -1478,14 +1478,14 @@ mainMenu.onlinePlay.status.copiedToClipboard = Copié dans le presse-papiers !
 mainMenu.onlinePlay.status.connecting = Configuration de la connexion... Cela peut prendre quelques secondes.
 mainMenu.onlinePlay.status.connectedVia = Connecté via {method}
 mainMenu.onlinePlay.status.failed = Échec de la configuration de connexion. Réessayez ou vérifiez les paramètres pare-feu.
-mainMenu.onlinePlay.natType = Type NAT : {type}
+mainMenu.onlinePlay.natType = Type NAT: {type}
 mainMenu.onlinePlay.natType.Unknown = Inconnu
 mainMenu.onlinePlay.natType.None = Pas de NAT (Direct)
 mainMenu.onlinePlay.natType.NatWithUpnp = Standard (UPnP)
 mainMenu.onlinePlay.natType.NatWithoutUpnp = Restreint (Pas d'UPnP)
 mainMenu.onlinePlay.natType.DoubleNat = Double NAT
 mainMenu.onlinePlay.natType.CarrierGradeNat = Carrier-Grade NAT (CGNAT)
-mainMenu.onlinePlay.connectionWarning = Attention : Votre configuration réseau peut empêcher d'autres joueurs de se connecter.
+mainMenu.onlinePlay.connectionWarning = Attention: Votre configuration réseau peut empêcher d'autres joueurs de se connecter.
 mainMenu.onlinePlay.wipWarning = C'est une fonctionnalité expérimentale qui dépend fortement de votre environnement. Si cela ne fonctionne pas, veuillez consulter l'article de support à <u><a href="joining-friends">{url}</a></u>.
 
 mainMenu.servers.button.joinServer = Rejoindre le serveur
@@ -1507,13 +1507,13 @@ mainMenu.servers.ping = Ping
 
 mainMenu.servers.failedToFetch = Échec de la récupération de la liste des serveurs
 
-mainMenu.servers.details.host = Hôte : {host}
-mainMenu.servers.details.languages = Langues Supportées : {languages}
-mainMenu.servers.details.uuid = UUID : {uuid}
-mainMenu.servers.details.online = En Ligne : {online}
-mainMenu.servers.details.branch = Branche : {name}
-mainMenu.servers.details.favoriteYes = Favori : Oui
-mainMenu.servers.details.favoriteNo = Favori : Non
+mainMenu.servers.details.host = Hôte: {host}
+mainMenu.servers.details.languages = Langues Supportées: {languages}
+mainMenu.servers.details.uuid = UUID: {uuid}
+mainMenu.servers.details.online = En Ligne: {online}
+mainMenu.servers.details.branch = Branche: {name}
+mainMenu.servers.details.favoriteYes = Favori: Oui
+mainMenu.servers.details.favoriteNo = Favori: Non
 
 mainMenu.servers.offline.title = Multijoueur Indisponible
 mainMenu.servers.offline.description.offline = Vous êtes en mode hors ligne.\n\
@@ -1568,9 +1568,9 @@ mainMenu.worlds.settings.applyWorldSettings = Appliquer Paramètres
 mainMenu.worlds.settings.restoreSettings = Rétablir par Défaut
 mainMenu.worlds.settings.deathPenalty = [TMP] Pénalité d'Inventaire à la Mort
 mainMenu.worlds.settings.deathPenalty.tooltip = [TMP] Définit la pénalité d'inventaire à appliquer à la mort du joueur.\n\
-<b><color is="#f1ba50">Aucune</color></b> : Le joueur ne lâchera pas d'objets à la mort.\n\
-<b><color is="#f1ba50">Tout Lâcher</color></b> : Le joueur lâchera tous les objets de son inventaire à la mort.\n\
-<b><color is="#f1ba50">Lâcher Partiel</color></b> : Le joueur lâchera seulement les objets configurés pour être lâchés à la mort selon une certaine quantité.
+<b><color is="#f1ba50">Aucune</color></b>: Le joueur ne lâchera pas d'objets à la mort.\n\
+<b><color is="#f1ba50">Tout Lâcher</color></b>: Le joueur lâchera tous les objets de son inventaire à la mort.\n\
+<b><color is="#f1ba50">Lâcher Partiel</color></b>: Le joueur lâchera seulement les objets configurés pour être lâchés à la mort selon une certaine quantité.
 mainMenu.worlds.settings.resourceLoss = [TMP] Perte de Ressources % à la Mort
 mainMenu.worlds.settings.durabilityLoss = [TMP] Perte de Durabilité % à la Mort
 mainMenu.worlds.settings.deathPenaltyNone = [TMP] Aucune
@@ -1850,7 +1850,7 @@ settings.fpsLimit = FPS Maximum
 settings.unlimitedFps = FPS Illimités
 settings.viewDistance = Distance de Vue
 settings.viewDistance.description = La distance de vue détermine jusqu'où vous pouvez voir.
-settings.viewDistance.performanceWarning = Recommandé : 64Go RAM et 16Go VRAM.
+settings.viewDistance.performanceWarning = Recommandé: 64Go RAM et 16Go VRAM.
 settings.fieldOfView = Champ de Vision
 settings.sprintFovEffect = Effet FOV Sprint
 settings.sprintFovIntensity = Intensité FOV Sprint
@@ -1878,9 +1878,9 @@ settings.renderScale = Échelle de Rendu
 settings.renderScale.description = Le pourcentage de la résolution d'écran auquel rendre le jeu.
 settings.placementPreview = Aperçu Placement de Bloc
 settings.placementPreview.description = Définit pour quels types de blocs un aperçu de placement sera affiché (en tenant un bloc en main).\n\
-<b><color is="#f1ba50">Aucun</color></b> : L'aperçu ne sera jamais affiché.\n\
-<b><color is="#f1ba50">Tous</color></b> : L'aperçu sera affiché pour n'importe quel bloc.\n\
-<b><color is="#f1ba50">Multipart</color></b> : L'aperçu ne sera affiché que pour les blocs plus grands qu'un seul bloc.
+<b><color is="#f1ba50">Aucun</color></b>: L'aperçu ne sera jamais affiché.\n\
+<b><color is="#f1ba50">Tous</color></b>: L'aperçu sera affiché pour n'importe quel bloc.\n\
+<b><color is="#f1ba50">Multipart</color></b>: L'aperçu ne sera affiché que pour les blocs plus grands qu'un seul bloc.
 settings.placementPreview.none = Aucun
 settings.placementPreview.all = Tous
 settings.placementPreview.multipart = Multipart
@@ -1908,8 +1908,8 @@ settings.maxChatMessages = Messages Chat Max
 settings.maxChatMessages.description = Détermine le nombre max de messages à garder listés dans le chat.
 settings.cameraBasedFlying = Vol Relatif à la Caméra
 settings.cameraBasedFlying.description = Définit comment le vol se comporte.\n\
-<b><color is="#f1ba50">On</color></b> : Vous bougerez basé sur là où vous regardez.\n\
-<b><color is="#f1ba50">Off</color></b> : Vous bougerez toujours de la même façon peu importe où vous regardez.
+<b><color is="#f1ba50">On</color></b>: Vous bougerez basé sur là où vous regardez.\n\
+<b><color is="#f1ba50">Off</color></b>: Vous bougerez toujours de la même façon peu importe où vous regardez.
 settings.showToolNotifications = Afficher Notifications Outil
 settings.cameraShoulder = Épaule Caméra
 settings.cameraShoulder.left = Gauche
@@ -1990,7 +1990,7 @@ settings.ambientVolume = Volume Ambiance
 settings.uiVolume = Volume UI
 settings.outputMode = Mode de Sortie
 settings.outputMode.description = Contrôle la configuration du canal de sortie audio.\n\
-<b><color is="#f1ba50">Défaut</color></b> : Sélectionne automatiquement la meilleure option pour votre périphérique de sortie choisi.
+<b><color is="#f1ba50">Défaut</color></b>: Sélectionne automatiquement la meilleure option pour votre périphérique de sortie choisi.
 settings.outputMode.default = Défaut
 settings.outputMode.stereo = Stéréo (Haut-parleurs)
 settings.outputMode.stereoHrtf = Stéréo (Casque)
@@ -2010,7 +2010,7 @@ settings.bindings.StrafeLeft = Pas Latéral Gauche
 settings.bindings.StrafeRight = Pas Latéral Droite
 settings.bindings.Jump = Sauter
 settings.bindings.Crouch = S'accroupir/Glisser/Rouler
-settings.bindings.Crouch.description = <b>Glisser</b> : Appuyez sur cette touche en sprintant pour glisser.\n<b>Rouler</b> : Appuyez sur cette touche en tombant pour rouler.
+settings.bindings.Crouch.description = <b>Glisser</b>: Appuyez sur cette touche en sprintant pour glisser.\n<b>Rouler</b>: Appuyez sur cette touche en tombant pour rouler.
 settings.bindings.Sprint = Sprinter
 settings.bindings.FlyUp = Voler Haut
 settings.bindings.FlyDown = Voler Bas
@@ -2157,36 +2157,36 @@ settings.displayTempPrefix = Afficher Tags [TMP] sur Texte
 
 settings.armorItemsPickupLocation = Objets d'Armure
 settings.armorItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage d'objets au ramassage.\n\
-<b><color is="#f1ba50">Barre d'Action</color></b> : Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
-<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
+<b><color is="#f1ba50">Barre d'Action</color></b>: Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b>: Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
 
 settings.weaponAndToolItemsPickupLocation = Objets Arme et Outil
 settings.weaponAndToolItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage d'objets au ramassage.\n\
-<b><color is="#f1ba50">Barre d'Action</color></b> : Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
-<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
+<b><color is="#f1ba50">Barre d'Action</color></b>: Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b>: Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
 
 settings.usableItemsPickupLocation = Objets Utilisables
 settings.usableItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage d'objets au ramassage.\n\
-<b><color is="#f1ba50">Barre d'Action</color></b> : Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
-<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
+<b><color is="#f1ba50">Barre d'Action</color></b>: Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b>: Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
 
 settings.solidBlockItemsPickupLocation = Objets Blocs Solides
 settings.solidBlockItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage d'objets au ramassage.\n\
-<b><color is="#f1ba50">Barre d'Action</color></b> : Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
-<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
+<b><color is="#f1ba50">Barre d'Action</color></b>: Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b>: Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
 
 settings.miscItemsPickupLocation = Objets Divers
 settings.miscItemsPickupLocation.description = Définit l'emplacement à prioriser lors du stockage d'objets au ramassage.\n\
-<b><color is="#f1ba50">Barre d'Action</color></b> : Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
-<b><color is="#f1ba50">Inventaire</color></b> : Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
+<b><color is="#f1ba50">Barre d'Action</color></b>: Les nouveaux objets iront d'abord dans la barre d'action, une fois pleine, ils iront dans l'inventaire.\n\
+<b><color is="#f1ba50">Inventaire</color></b>: Les nouveaux objets iront d'abord dans l'inventaire, une fois plein, ils iront dans la barre d'action.
 
 settings.pickupLocation.hotbar = Barre d'Action
 settings.pickupLocation.storage = Inventaire
 
 settings.cameraBasedClimbing = Escalade Relative à la Caméra
 settings.cameraBasedClimbing.description = Définit comment l'escalade se comporte.\n\
-<b><color is="#f1ba50">On</color></b> : En appuyant sur avancer, vous bougerez basé sur là où vous regardez.\n\
-<b><color is="#f1ba50">Off</color></b> : Vous bougerez toujours de la même façon peu importe où vous regardez.
+<b><color is="#f1ba50">On</color></b>: En appuyant sur avancer, vous bougerez basé sur là où vous regardez.\n\
+<b><color is="#f1ba50">Off</color></b>: Vous bougerez toujours de la même façon peu importe où vous regardez.
 
 settings.crouchBehavior = Comportement Accroupi
 settings.sprintBehavior = Comportement Sprint
@@ -2198,7 +2198,7 @@ settings.resetToDefaultsConfirmationModal.title = Réinitialiser Paramètres
 settings.resetToDefaultsConfirmationModal.text = Êtes-vous sûr de vouloir réinitialiser tous les paramètres à leurs valeurs par défaut ?
 # === timeline ===
 timeline.frame = Frame
-timeline.currentFrame = Frame : {frame, number}
+timeline.currentFrame = Frame: {frame, number}
 
 timeline.tabs.properties = Propriétés
 timeline.tabs.events = Événements
@@ -2256,7 +2256,7 @@ feedback.error.fileError = Impossible de lire "{file}"
 
 feedback.success.title = Merci !
 feedback.success.feedback = Votre avis a été soumis avec succès. Nous apprécions votre contribution !
-feedback.success.bugreport = Votre rapport de bug a été soumis avec succès. Nous allons y jeter un œil !
+feedback.success.bugreport = Votre rapport de bug a été soumis avec succès. Nous allons y jeter un oeil !
 feedback.success.submitMore = Soumettre Plus
 
 
