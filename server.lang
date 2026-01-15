@@ -221,13 +221,13 @@ builderTools.undoStatus = {index, number}- Annuler :{action}
 builderTools.redoStatus = {index, number}- Prêt :{action}
 builderTools.historyCleared = Historique effacé
 builderTools.attemptedToSaveOutsidePrefabsDir = Erreur : tentative d'enregistrement en dehors du répertoire préfabriqué
-builderTools.savedSelectionToPrefab = Sélection enregistrée dans le préfabriqué{name}
-builderTools.errorSavingPrefab = Erreur lors de l'enregistrement du préfabriqué{name} :{message}
+builderTools.savedSelectionToPrefab = Sélection enregistrée dans le préfabriqué {name}
+builderTools.errorSavingPrefab = Erreur lors de l'enregistrement du préfabriqué {name} :{message}
 builderTools.prefabAlreadyExists = Le préfabriqué existe déjà
 builderTools.cannotSaveToReadOnlyPath = [TMP] Impossible d'enregistrer dans le chemin en lecture seule :{path}. Enregistrez-le plutôt dans un mod inscriptible ou dans le répertoire des préfabriqués du serveur.
 builderTools.loadedPrefab = Préfabriqué chargé __VAR_0_
-builderTools.prefabDoesNotExist = Le préfabriqué{name}n'existe pas
-builderTools.errorLoadingPrefab = Erreur lors du chargement du préfabriqué{name} :{message}
+builderTools.prefabDoesNotExist = Le préfabriqué {name} n'existe pas
+builderTools.errorLoadingPrefab = Erreur lors du chargement du préfabriqué {name} :{message}
 builderTools.brush.args.Width.name = Largeur
 builderTools.brush.args.Width.description = Le nombre de blocs de largeur de la forme du pinceau doit être
 builderTools.brush.args.Height.name = Hauteur
@@ -657,12 +657,12 @@ builderTools.commands.clearEntities.desc = Supprimer toutes les entités de la s
 builderTools.commands.clearEntities.noSelection = Vous n'avez rien sélectionné !
 builderTools.commands.clearEntities.cleared = Suppression de{count, plural, one {1 entity}autres{{count, number}entités}} de la sélection
 builderTools.edit.invalidBlockId = ID de bloc invalide :{id}
-builderTools.environment.envNotFound = Échec de la recherche de l'environnement portant le nom :{name}
+builderTools.environment.envNotFound = Échec de la recherche de l'environnement portant le nom: {name}
 builderTools.invalidBlockType = {name}'{key}' n'est pas un type de bloc valide !
 builderTools.globalmask.setFailed = Échec de la définition du masque global :{reason}
 builderTools.prefab.prefabNotFound = Impossible de trouver un préfabriqué portant le nom «{name}» !
-builderTools.prefab.deleted = Supprimé{name}
-builderTools.prefab.confirmDeletion = Etes-vous sûr de vouloir supprimer le fichier{name} !\
+builderTools.prefab.deleted = Supprimé {name}
+builderTools.prefab.confirmDeletion = Etes-vous sûr de vouloir supprimer le fichier {name} !\
     Run the command again to confirm.
 builderTools.prefab.errorOccured = Une erreur s'est produite :{reason}
 builderTools.prefab.errorListingPrefabs = Erreur dans la liste des préfabriqués !{reason}
@@ -729,7 +729,7 @@ commands.teleport.notFurther = Impossible de se téléporter plus loin dans cett
 commands.teleport.setHome = La maison a été définie sur votre emplacement actuel.
 commands.teleport.worldNotLoaded = Ce monde n'est plus chargé !
 commands.teleport.failedBecauseCancelled = Échec de la téléportation car la téléportation a été annulée !
-commands.teleport.teleportedToWaypoint = Vous avez été téléporté vers{name}.
+commands.teleport.teleportedToWaypoint = Vous avez été téléporté vers {name}.
 commands.teleport.teleportedToCoordinates = Vous avez été téléporté vers ({x, number},{y, number},{z, number}).
 commands.teleport.teleportedToCoordinatesWithLook = Vous avez été téléporté vers ({x, number},{y, number},{z, number},{yaw, number},{pitch, number},{roll, number}).
 commands.teleport.teleportedSelfHome = Vous avez été téléporté chez vous.
@@ -767,7 +767,7 @@ commands.teleport.warp.pageNumTooHigh = Le numéro de page est trop élevé :{p
 commands.teleport.warp.invalidPageNumber = "{page}" n'est pas un numéro de page valide !
 commands.teleport.warp.listHeader = Chaînes - Page{page, number}sur{pages, number}
 commands.teleport.warp.listEntry = {index, number}.{name}par{creator}
-commands.teleport.warp.warpedTo = Vous avez été téléporté vers{name} !
+commands.teleport.warp.warpedTo = Vous avez été téléporté vers {name} !
 commands.teleport.recent.desc = Téléportation vers l'emplacement de téléportation le plus récent
 commands.teleport.next.desc = Téléportez-vous au prochain emplacement de téléportation
 commands.teleport.dump.desc = Vide l'historique de téléportation sur la console
@@ -1133,8 +1133,8 @@ commands.editprefab.save.saveAll.success = Fin de l'enregistrement de tous les p
 commands.editprefab.save.readOnlyRedirect = [TMP]{count}préfabriqués proviennent de packs d'actifs en lecture seule et seront enregistrés sur le serveur/préfabriqués à la place.
 commands.editprefab.save.readOnlyNeedsConfirm = [TMP]{count}préfabriqués proviennent de packs d'actifs en lecture seule. Utilisez --confirm pour les enregistrer sur Server/Prefabs.
 commands.editprefab.save.readOnlyNeedsConfirmSingle = [TMP] Impossible d'enregistrer dans un pack de ressources en lecture seule. Utilisez plutôt --confirm pour enregistrer dans{redirectPath}.
-commands.editprefab.save.success = Enregistrement du préfabriqué terminé :{name}
-commands.editprefab.save.failure = Une erreur s'est produite lors de l'enregistrement du préfabriqué :{name}. Veuillez voir ci-dessus pour plus d'informations
+commands.editprefab.save.success = Enregistrement du préfabriqué terminé: {name}
+commands.editprefab.save.failure = Une erreur s'est produite lors de l'enregistrement du préfabriqué: {name}. Veuillez voir ci-dessus pour plus d'informations
 commands.editprefab.save.path.desc = Le répertoire de base dans lequel enregistrer le préfabriqué
 commands.editprefab.save.path.default.desc = Le répertoire de base préfabriqué du serveur
 commands.editprefab.save.selectionMismatch = Le préfabriqué que vous avez sélectionné a un cadre de délimitation qui n'est pas à jour avec votre sélection buildertools, veuillez exécuter '/pedit setbox' si vous souhaitez mettre à jour le cadre de délimitation, ou resélectionnez le préfabriqué si vous n'aviez pas l'intention de redimensionner le cadre de délimitation du préfabriqué.
@@ -1192,14 +1192,14 @@ commands.brushConfig.cleared = Le pinceau scripté a été effacé.
 commands.brushConfig.debug.notStarted = Vous devez commencer l'exécution avant de procéder au débogage.
 commands.brushConfig.debug.finished = Fini l'exécution de toutes les opérations.
 commands.brushConfig.debug.executed = Opérations exécutées
-commands.brushConfig.list.sequentialOperation = {index, number} :{name}
+commands.brushConfig.list.sequentialOperation = {index, number}: {name}
 commands.brushConfig.list.globalOperation = {name} :
 commands.brushConfig.list.sequentialOperation.header = Opérations de pinceau séquentielles
 commands.brushConfig.list.globalOperation.header = Opérations globales de pinceau
 commands.brushConfig.list.setting = \t{name}= >{value}
-commands.brushConfig.loaded = Pinceau scripté chargé :{name}
-commands.brushConfig.load.error.notFound = Pinceau scripté introuvable :{name}
-commands.brushConfig.load.error.loadFailed = Échec du chargement du pinceau scripté '{name}' :{error}
+commands.brushConfig.loaded = Pinceau scripté chargé: {name}
+commands.brushConfig.load.error.notFound = Pinceau scripté introuvable:{name}
+commands.brushConfig.load.error.loadFailed = Échec du chargement du pinceau scripté '{name}':{error}
 commands.replace.invalidBlockType = {arg}n'est pas un BlockType valide
 commands.replace.invalidRegex = Impossible d'analyser l'expression régulière :{error}
 commands.replace.success = Blocs remplacés correspondant à{regex}par{replacement}dans la sélection
@@ -1242,11 +1242,11 @@ commands.instances.copiedInstanceAssetConfig = Instance dupliquée{origin}dans{d
 commands.instances.edit.list.desc = Répertorie tous les actifs d'instance disponibles
 commands.instances.edit.list.header = Instances
 commands.instances.createDirectory.failed = Échec de la création du répertoire. Erreur :{errormsg}
-commands.instances.createdInstanceAssetConfig = Configuration d'actif d'instance créée pour :{name}
-commands.instances.beginLoading = Chargement commencé pour l'élément d'instance :{name}
+commands.instances.createdInstanceAssetConfig = Configuration d'actif d'instance créée pour : {name}
+commands.instances.beginLoading = Chargement commencé pour l'élément d'instance : {name}
 commands.instances.doneLoading = Chargement de l'élément d'instance terminé dans le monde :{world}
 commands.instances.fail.teleporting = Joueur : '{player}' est actuellement en train de se téléporter, il ne peut donc pas le téléporter
-commands.instances.fail.notInInstance = Joueur : '{player}' n'est actuellement pas dans une instance, il est dans le monde : '{world}'
+commands.instances.fail.notInInstance = Joueur : '{player}' n'est actuellement pas dans une instance, il est dans le monde: '{world}'
 commands.instances.fail.noReturnWorld = L'instance n'a pas de monde de retour valide
 commands.instances.fail.instanceAssetNotExist = Un actif d'instance portant le nom «{name}» n'existe pas
 commands.instances.migrate.complete = Instances{worlds}migrées. Blocs migrés{chunks}
@@ -1340,7 +1340,7 @@ commands.parsing.error.invalidEscapeForSymbol = Échappement non valide pour le 
 commands.parsing.error.cannotBeginListInsideList = Impossible de commencer une liste à partir d'une autre liste à l'index{index}.
 commands.parsing.error.cannotEndListWithoutStarting = Impossible de terminer une liste sans en avoir commencé une au préalable à l'index{index}.
 commands.parsing.error.unbalancedQuotes = Vous avez commencé des citations mais vous ne les avez pas terminées.
-commands.parsing.error.optionalArgRequiredIf = Argument facultatif : '{required}' n'a pas été spécifié, mais est obligatoire puisque l'autre argument facultatif : '{requirer}' a été spécifié.
+commands.parsing.error.optionalArgRequiredIf = Argument facultatif: '{required}' n'a pas été spécifié, mais est obligatoire puisque l'autre argument facultatif: '{requirer}' a été spécifié.
 commands.parsing.error.optionalArgAvailableIf = Argument facultatif : '{available}' a été spécifié, mais n'est disponible que si tous les arguments suivants sont spécifiés, qui ne l'étaient pas :{required}.
 commands.parsing.error.optionalArgAvailableIfAbsent = Argument facultatif : '{available}' a été spécifié, mais n'est disponible que si tous les arguments suivants ne sont pas spécifiés :{required}.
 commands.parsing.argtype.flag.name = Drapeau
@@ -1399,7 +1399,7 @@ commands.parsing.argtype.yaw.usage = Rotation autour de l'axe Vertical
 commands.parsing.argtype.roll.name = Rouler
 commands.parsing.argtype.roll.usage = Rotation autour de l’axe avant-arrière
 commands.parsing.argtype.gamemode.name = Mode Jeu
-commands.parsing.argtype.gamemode.usage = Un mode de jeu (aventure, créatif, ou leurs abréviations : a, c)
+commands.parsing.argtype.gamemode.usage = Un mode de jeu (aventure, créatif, ou leurs abréviations: a, c)
 commands.parsing.argtype.gamemode.invalid = Mode de jeu «{input}» non valide. Options valides :{suggestions}
 commands.parsing.argtype.asset.model.name = Actif modèle
 commands.parsing.argtype.asset.model.usage = Une référence à un actif de type Modèle
@@ -1490,10 +1490,10 @@ commands.displayname.set.name.desc = Le nom d’affichage à définir
 commands.displayname.clear.desc = Efface le nom d'affichage du joueur
 commands.displayname.cleared = Vous avez effacé votre nom d'affichage
 commands.displayname.invalid = Le nom d'affichage "{name}" n'est pas un nom valide
-commands.displayname.success = Votre nom d'affichage a été défini sur{name}
+commands.displayname.success = Votre nom d'affichage a été défini sur {name}
 commands.gamemode.alreadyInMode.other = {username}est déjà dans ce mode de jeu
 commands.gamemode.alreadyInMode.self = Vous êtes déjà dans ce mode de jeu
-commands.gamemode.gamemode.desc = Le mode de jeu à paramétrer (aventure, créatif, ou leurs abréviations : a, c)
+commands.gamemode.gamemode.desc = Le mode de jeu à paramétrer (aventure, créatif, ou leurs abréviations: a, c)
 commands.gamemode.toggle.desc = Basculez entre les modes de jeu aventure et créatif
 commands.gamemode.invalid = Mode de jeu «{value}» non valide. Les modes de jeu valides sont :{validModes}, ou bascule
 commands.gamemode.success.other = Le mode de jeu de{username}a été défini sur{mode}
@@ -1573,7 +1573,7 @@ commands.player.viewradius.set.noHigherThan = Impossible de définir un rayon de
 commands.player.viewradius.set.success = Rayon de vue défini sur {rayon, pluriel,\
     one {1 chunk}\
     other {{radius, number} chunks}} ({radiusBlocks, number} blocks)
-commands.stat.success = Réglez{name}sur{value}
+commands.stat.success = Réglez {name} sur {value}
 commands.sudo.invalidusage = Utilisation invalide ! Utilisation valide : /su Player Command
 commands.sudo.player.desc = Le joueur sous lequel exécuter la commande (ou "*" pour tous les joueurs)
 commands.whereami.header = Vous êtes actuellement :\n\
@@ -1654,8 +1654,8 @@ commands.chunkinfo.serialized = Données de bloc sérialisées vers la console.
 commands.chunkinfo.serialized.failed = Échec de la sérialisation du morceau. Veuillez vérifier la console.
 commands.world.perf.desc = Afficher les mesures de performances (TPS) pour un monde
 commands.world.perf.tickLimit = (Limite de coche :{tickLimit})
-commands.world.perf.period = ({length}) :{padding}{value}
-commands.world.perf.tpsTime = \tTPS ({time}) :{tps}
+commands.world.perf.period = ({length}): {padding}{value}
+commands.world.perf.tpsTime = \tTPS ({time}): {tps}
 commands.world.perf.tpsMinMaxMetric = \tTPS ({time}) : Min :{min}, Moy. :{avg}, Max :{max}
 commands.world.perf.deltaMinMaxMetric = \tDelta ({time}) : Min :{min}, Moy. :{avg}, Max :{max}
 commands.world.perf.all.desc = Afficher les valeurs delta en plus du TPS
@@ -1759,8 +1759,8 @@ commands.profiler.sleeping = [Profils] Dormir pendant{duration}{unit}
 commands.recipe.desc = Commandes de gestion des recettes des joueurs
 commands.recipe.learn.desc = Apprendre une recette pour un article
 commands.recipe.learn.other.desc = [TMP] Apprenez une recette à un autre joueur
-commands.recipe.learn.success.other = [TMP] J'ai appris à{username}la recette de{name}
-commands.recipe.learn.alreadyKnown.other = [TMP]{username}connaît déjà la recette de{name}
+commands.recipe.learn.success.other = [TMP] J'ai appris à {username} la recette de {name}
+commands.recipe.learn.alreadyKnown.other = [TMP]{username}connaît déjà la recette de {name}
 commands.recipe.learn.item.desc = L'objet dont apprendre la recette
 commands.recipe.forget.desc = Oublier une recette pour un article
 commands.recipe.forget.other.desc = [TMP] Faire oublier une recette à un autre joueur
@@ -1773,7 +1773,7 @@ commands.recipe.alreadyNotKnown = Vous ne connaissez pas la recette de '{id}' !
 commands.recipe.alreadyNotKnown.other = [TMP]{username}ne connaît pas la recette de '{id}'
 commands.recipe.knownRecipes = Recettes connues :{list}
 commands.recipe.knownRecipes.other = [TMP] Recettes connues de{username} :{list}
-commands.stat.entityStatNotFound = Vous n'avez pas de{name}EntityStat !
+commands.stat.entityStatNotFound = Vous n'avez pas de {name}EntityStat !
 commands.camera.desc = Commandes pour manipuler la caméra du joueur
 commands.camera.reset.desc = Réinitialiser la caméra à la vue par défaut
 commands.camera.reset.success = La caméra a été réinitialisée à la vue par défaut
@@ -1857,7 +1857,7 @@ commands.sleeptest.sleep.defaultDesc = 10
 commands.sleeptest.count.desc = Nombre d'itérations de tests
 commands.sleeptest.count.defaultDesc = 1000
 commands.sleeptest.starting = Démarrage du test de sommeil : nombre :{count}, sommeil :{sleep}"ms (durée :{ms})
-commands.sleeptest.test = Test de sommeil\n- Delta : Min :{deltaMin}, Max :{deltaMax}, Moy :{deltaAvg}-{deltaTime}\n- Décalage : Min :{offsetMin}, Max :{offsetMax}, Moy :{offsetAvg}-{offsetTime}
+commands.sleeptest.test = Test de sommeil\n- Delta: Min: {deltaMin}, Max: {deltaMax}, Moy: {deltaAvg}-{deltaTime}\n- Décalage: Min: {offsetMin}, Max: {offsetMax}, Moy: {offsetAvg}-{offsetTime}
 commands.sleeptest.interrupted = Test de sommeil interrompu
 commands.sound.desc = Commandes pour jouer des événements sonores
 commands.sound.2d.desc = Jouer un événement sonore 2D
@@ -2261,7 +2261,7 @@ commands.perm.user.group.add.group.desc = Le nom du groupe
 commands.perm.user.group.remove.desc = Supprimer l'utilisateur du groupe
 commands.perm.user.group.remove.uuid.desc = L'UUID de l'utilisateur
 commands.perm.user.group.remove.group.desc = Le nom du groupe
-commands.perm.test.nodes.desc = Les nœuds d'autorisation à tester
+commands.perm.test.nodes.desc = Les noeuds d'autorisation à tester
 commands.testperm.desc = Tester les autorisations
 commands.world.desc = Commandes liées au monde
 commands.addworld.desc = Ajouter un nouveau monde
@@ -2420,10 +2420,10 @@ commands.tps.usePerf = Vous devriez utiliser /perf
 commands.tps.set.invalidValue = Le TPS doit être positif
 commands.tps.set.success = Réglez le TPS de{worldName}sur{tps, number}
 commands.tps.reset = Les métriques ont été réinitialisées pour tous les mondes !
-commands.tps.tpsTime = \tTPS ({time}) :{tps}\n
+commands.tps.tpsTime = \tTPS ({time}): {tps}\n
 commands.tps.deltaTime = \tDelta ({time}) :{delta}\n
 commands.tps.tpsMinMaxMetric = \tTPS ({time}) : Min :{min}, Moy. :{avg}, Max :{max}
-commands.tps.deltaMinMaxMetric = \tDelta ({time}) : Min :{min}, Moy. :{avg}, Max :{max}\n
+commands.tps.deltaMinMaxMetric = \tDelta ({time}): Min: {min}, Moy.: {avg}, Max: {max}\n
 commands.tps.graph = Graphique TPS{time} :\n
 commands.time.dilation.desc = Modifie la mise à l'échelle de dilatation du temps du serveur, modifie également tous les clients en ligne avec la valeur mise à jour
 commands.time.dilation.timeDilation.desc = La valeur de dilatation du temps (doit être >0,01 et <= 4)
@@ -2892,7 +2892,7 @@ commands.npc.path.polygon.desc = Définir un chemin transitoire sur le PNJ cible
 commands.npc.path.length.desc = La longueur des côtés du polygone
 commands.npcpath.desc = Commandes pour gérer les chemins de patrouille des PNJ
 commands.npcpath.list.desc = Répertoriez tous les chemins de patrouille actifs pour un monde et leurs états
-commands.npcpath.nodes.desc = Répertorier tous les nœuds et informations pour un chemin donné
+commands.npcpath.nodes.desc = Répertorier tous les noeuds et informations pour un chemin donné
 commands.npcpath.nodes.worldgenId.desc = L'identifiant Worldgen
 commands.npcpath.nodes.path.desc = Le chemin UUID
 commands.npcpath.new.desc = Démarrer un nouveau chemin de patrouille de PNJ
@@ -2902,7 +2902,7 @@ commands.npcpath.new.observationAngleDegrees.desc = L'angle d'observation en deg
 commands.npcpath.edit.desc = Préparez-vous à modifier le chemin d'un PNJ existant
 commands.npcpath.edit.pathId.desc = Le chemin UUID (facultatif, utilisera l'entité en vue s'il n'est pas fourni)
 commands.npcpath.edit.noEntityInView = Aucune entité n'est vue et aucun identifiant de chemin n'est fourni !
-commands.npcpath.add.desc = Ajouter un nœud de chemin de patrouille PNJ
+commands.npcpath.add.desc = Ajouter un noeud de chemin de patrouille PNJ
 commands.npcpath.add.pauseTime.desc = Le temps de pause à ce waypoint (par défaut : 0,0)
 commands.npcpath.add.observationAngleDegrees.desc = L'angle d'observation en degrés (par défaut : 0,0)
 commands.npcpath.add.index.desc = L'index cible (par défaut : -1)
@@ -2911,10 +2911,10 @@ commands.npcpath.merge.desc = Fusionner un deuxième chemin avec le chemin en co
 commands.npcpath.merge.pathName.desc = L'UUID du chemin à fusionner
 commands.npcpath.merge.noActivePath = Vous devez d'abord utiliser la commande « nouveau » pour démarrer un chemin ou la commande « modifier » pour choisir un chemin à modifier.
 commands.npcpath.update.desc = Commandes de mise à jour des marqueurs de chemin préfabriqués
-commands.npcpath.update.pause.desc = Mettre à jour le temps de pause sur le nœud donné
+commands.npcpath.update.pause.desc = Mettre à jour le temps de pause sur le noeud donné
 commands.npcpath.update.pause.entityId.desc = L'UUID de l'entité (facultatif, utilisera l'entité en vue si elle n'est pas fournie)
 commands.npcpath.update.pause.pauseTime.desc = Le temps de pause à régler
-commands.npcpath.update.observationAngle.desc = Mettre à jour l'angle d'observation au nœud donné
+commands.npcpath.update.observationAngle.desc = Mettre à jour l'angle d'observation au noeud donné
 commands.npcpath.update.observationAngle.entityId.desc = L'UUID de l'entité (facultatif, utilisera l'entité en vue si elle n'est pas fournie)
 commands.npcpath.update.observationAngle.angle.desc = L'angle d'observation en degrés
 commands.npc.role.desc = Changer le rôle d'un PNJ
@@ -3099,7 +3099,7 @@ commands.auth.select.noPending = Aucune sélection de profil en attente. Exécut
 commands.auth.select.invalidSelection = Sélection invalide. Utilisez un numéro de profil ou un nom d’utilisateur valide.
 commands.auth.select.success = Profil sélectionné ! Utilisez « /auth status » pour afficher les détails.
 commands.auth.select.failed = Échec de l'authentification avec le profil sélectionné.
-commands.auth.select.availableProfiles = Profils disponibles :
+commands.auth.select.availableProfiles = Profils disponibles: 
 commands.auth.select.usage = Utilisez '/auth select<number>' ou '/auth select<username>'
 commands.auth.select.profileItem = [{index, number}]{username}({uuid})
 commands.auth.select.profile.desc = Numéro de profil ou nom d'utilisateur à sélectionner
@@ -3235,7 +3235,7 @@ customUI.portalDevice.breachDescription = Void Breach commence avant la fermetur
 customUI.portalDevice.timeLimitLabel = Limite de temps
 customUI.portalDevice.durationMins = {time} min
 customUI.portalDevice.minutesToExplore = {time} minutes à explorer
-customUI.portalDevice.minutesVoidInvasion = {time}minutes pendant<color is= "#b61a82">Void Breach</color>
+customUI.portalDevice.minutesVoidInvasion = {time}minutes pendant <color is="#b61a82">Void Breach</color>
 customUI.portalDevice.wipText = [TMP]Cette fonctionnalité est en cours de développement.
 customUI.prefabSpawnerSettingsPage.title = Paramètres du générateur préfabriqué
 customUI.prefabSpawnerSettingsPage.prefabPath = Chemin préfabriqué
@@ -3402,11 +3402,11 @@ entityEffects.Poison = Poison
 
 # = = =  formatting = = = 
 
-formatting.list.header = "{header}({count, number}) : "
+formatting.list.header = "{header}({count, number}): "
 formatting.list.row = -{value}
 formatting.list.itemSeparator = None
 formatting.list.empty = "(vide)"
-formatting.list.inlineHeaderSuffix = " : "
+formatting.list.inlineHeaderSuffix = ": "
 
 # = = =  general = = = 
 
@@ -3459,7 +3459,7 @@ general.killedByCommand = Vous avez été tué par {displayName}en utilisant la 
 general.killedByUnknown = Vous avez été tué par une force inconnue !
 general.killedEntity = Vous avez tué {entityName} !
 general.itemsLossPrevented = Perte d'objet évitée dans ce monde !
-general.itemsDurabilityLoss = Vos objets ont perdu<color is= "#be1717">{percentage}%</color>de durabilité !
+general.itemsDurabilityLoss = Vos objets ont perdu <color is="#be1717">{percentage}%</color> de durabilité !
 general.itemsAmountLoss = Vous avez laissé tomber les objets suivants au sol :
 general.interaction.configureInstance.noInstanceName = BlockState n'a pas de nom d'instance
 general.etc = etc.
@@ -3516,17 +3516,17 @@ instances.creative_hub.subtitle = Cosmos de créativité
 # = = =  interactionHints = = = 
 
 interactionHints.generic = Appuyez sur [{key}] pour interagir
-interactionHints.open = Appuyez sur [{key}] pour ouvrir{name}
-interactionHints.gather = Appuyez sur [{key}] pour récupérer{name}
+interactionHints.open = Appuyez sur [{key}] pour ouvrir {name}
+interactionHints.gather = Appuyez sur [{key}] pour récupérer {name}
 interactionHints.edit = Appuyez sur [{key}] pour modifier
 interactionHints.turnon = Appuyez sur [{key}] pour allumer
 interactionHints.turnoff = Appuyez sur [{key}] pour éteindre
 interactionHints.sit = Appuyez sur [{key}] pour vous asseoir
-interactionHints.harvest = Appuyez sur [{key}] pour récolter{name}
+interactionHints.harvest = Appuyez sur [{key}] pour récolter {name}
 interactionHints.trade = Appuyez sur [{key}] pour échanger
 interactionHints.mount = Appuyez sur [{key}] pour monter
-interactionHints.burst = Appuyez sur [{key}] pour faire éclater{name}
-interactionHints.pickup = Appuyez sur [{key}] pour récupérer{name}
+interactionHints.burst = Appuyez sur [{key}] pour faire éclater {name}
+interactionHints.pickup = Appuyez sur [{key}] pour récupérer {name}
 
 # = = =  interactions = = = 
 
@@ -3552,8 +3552,8 @@ io.servermanager.bindings = Reliures :
 io.setuppackethandler.otherLoginAttempt = Quelqu'un a essayé de se connecter avec votre compte ! Nous avons déconnecté l'autre utilisateur.
 io.gamepackethandler.localCommandDenied = Impossible de gérer la commande locale :{message}
 io.gamepackethandler.sceneUpdateSent = Mise à jour de la scène envoyée à tous les joueurs
-io.gamepackethander.sceneUpdateSentToPlayer = Mise à jour de la scène envoyée à{name}
-io.gamepackethandler.playerNotFound = Impossible de trouver un joueur portant le nom{name}
+io.gamepackethander.sceneUpdateSentToPlayer = Mise à jour de la scène envoyée à {name}
+io.gamepackethandler.playerNotFound = Impossible de trouver un joueur portant le nom {name}
 
 # https://github.com/h3pha/HytaleFR
 # = = =  itemSets = = = 
@@ -3755,7 +3755,7 @@ items.Bench_Arcane.description = Utilisé pour fabriquer divers outils arcanique
 items.Bench_Arcane.name = Établi de l'arcaniste
 items.Bench_Architects.description = Utilisé pour créer des blocs de construction et des meubles. Même un avatar a besoin de quelques réconforts !
 items.Bench_Architects.name = Établi d'architecte
-items.Bench_Armory.description = Le cœur de tout atelier. Utilisé pour forger des armures et des armes avancées.
+items.Bench_Armory.description = Le coeur de tout atelier. Utilisé pour forger des armures et des armes avancées.
 items.Bench_Armory.name = Forge
 items.Bench_Armour.description = Utilisé pour fabriquer une armure de base.
 items.Bench_Armour.name = Établi de l'armurier
@@ -3765,7 +3765,7 @@ items.Bench_Furniture.description = Utilisé pour fabriquer des meubles, des ran
 items.Bench_Furniture.name = Établi de meubles
 items.Bench_Campfire.description = Cuisinez des repas de base.\n\n<i>Pour de nombreux aventuriers, un simple feu de camp suffit à déclarer un lieu « chez-soi ». Des liens inébranlables peuvent être forgés en se prélassant dans sa chaleur et tous les grands contes ont jailli de ses braises.</i>
 items.Bench_Campfire.name = Feu de camp
-items.Coop_Chicken.description = Les poulets capturés dans un<item is= "Tool_Capture_Crate"/>peuvent être hébergés ici.
+items.Coop_Chicken.description = Les poulets capturés dans un <item is="Tool_Capture_Crate"/> peuvent être hébergés ici.
 items.Coop_Chicken.name = Poulailler
 items.Bench_Cooking.description = Une cuisine intégrée pouvant être utilisée pour réaliser des plats avancés.
 items.Bench_Cooking.name = Cuisinière du chef
@@ -3776,7 +3776,7 @@ items.Bench_Furnace.name = Four
 items.Bench_Loom.description = Utilisé pour transformer des tissus et des objets magiques en matériaux.
 items.Bench_Loom.name = Métier à tisser
 items.Bench_Lumbermill.name = Bloc de bûcheron
-items.Bench_Memories.name = Le cœur d'Orbis
+items.Bench_Memories.name = Le coeur d'Orbis
 items.Bench_Memories.description = <i>Une faible voix désincarnée peut être entendue en présence de cette statue. Échos d’un être au-delà des barrières. Du monde d'origine.</i>
 items.Bench_Salvage.description = [TMP] Peut être utilisé pour décomposer certains éléments en matériaux de base.
 items.Bench_Salvage.name = Établi du récupérateur
@@ -3843,11 +3843,11 @@ items.Cloth_Roof_Yellow_Flap.name = Toit en Tissu Jaune - Frange
 items.Cloth_Roof_Yellow_Flat.name = Toit en tissu jaune - Horizontal
 items.Cloth_Roof_Yellow_Vertical.name = Toit en tissu jaune - Vertical
 items.Container_Bucket.name = Seau en bois
-items.Container_Bucket.description = [TMP] Peut être rempli de<color is= "#ffffff">Eau</color>ou utilisé pour traire<color is= "#ffffff">Vaches</color>.
+items.Container_Bucket.description = [TMP] Peut être rempli de <color is="#ffffff">Eau</color> ou utilisé pour traire <color is="#ffffff">Vaches</color>.
 items.Container_Bucket_Water.name = Seau en bois (eau)
-items.Container_Bucket_Water.description = [TMP] Contient<color is= "#ffffff">Water</color>qui peut être placé dans le monde.
+items.Container_Bucket_Water.description = [TMP] Contient <color is="#ffffff">Water</color> qui peut être placé dans le monde.
 items.Container_Bucket_Milk.name = Seau en bois (lait)
-items.Container_Bucket_Milk.description = [TMP] Contient du<color is= "#ffffff">Lait</color>qui peut être consommé pour un effet<color is= "#ffffff">Antidote</color>.
+items.Container_Bucket_Milk.description = [TMP] Contient du <color is="#ffffff">Lait</color> qui peut être consommé pour un effet <color is="#ffffff">Antidote</color>.
 items.Container_Bucket_Mosshorn_Milk.name = [TMP] Seau en bois (lait de mousse)
 items.Container_Bucket_Mosshorn_Milk.description = [TMP]<i>Tu ne devrais probablement pas boire ça...</i>
 items.Debug_Armor_D_Chest_Of_Damage_Reduction.name = Déboguer la Plastron de réduction des dégâts en cuir
@@ -3890,11 +3890,11 @@ items.Deco_Bone_Spine.name = Colonne vertébrale osseuse
 items.Deco_Book_Pile_Large.name = Grande pile de livres
 items.Deco_Book_Pile_Small.name = Petite pile de livres
 items.Deco_Bucket.name = Seau ancien
-items.Deco_Bucket.description = [TMP] Peut être rempli de<color is= "#ffffff">Eau</color>ou utilisé pour traire<color is= "#ffffff">Vaches</color>.
+items.Deco_Bucket.description = [TMP] Peut être rempli de <color is="#ffffff">Eau</color> ou utilisé pour traire <color is="#ffffff">Vaches</color>.
 items.Deco_Bucket_Water.name = Seau ancien (eau)
-items.Deco_Bucket_Water.description = [TMP] Contient<color is= "#ffffff">Water</color>qui peut être placé dans le monde.
+items.Deco_Bucket_Water.description = [TMP] Contient <color is="#ffffff">Water</color> qui peut être placé dans le monde.
 items.Deco_Bucket_Milk.name = Seau ancien (lait)
-items.Deco_Bucket_Milk.description = [TMP] Contient du<color is= "#ffffff">Lait</color>qui peut être consommé pour un effet<color is= "#ffffff">Antidote</color>.
+items.Deco_Bucket_Milk.description = [TMP] Contient du <color is="#ffffff">Lait</color> qui peut être consommé pour un effet <color is="#ffffff">Antidote</color>.
 items.Deco_Bucket_Mosshorn_Milk.name = [TMP] Seau ancien (lait de mousse)
 items.Deco_Bucket_Mosshorn_Milk.description = [TMP]<i>Tu ne devrais probablement pas boire ça...</i>
 items.Deco_Campfire_Off.name = Vieux feu de camp
@@ -3959,10 +3959,10 @@ items.Deco_Wallchain.name = Anneau mural
 items.Editor_Anchor.name = Ancre de l'éditeur
 items.Editor_Block.name = Bloc éditeur
 items.Editor_Empty.name = Éditeur vide
-items.Egg_Spawner_Lantern.name = Générateur d'œufs - Lanterne pour animaux de compagnie
+items.Egg_Spawner_Lantern.name = Générateur d'oeufs - Lanterne pour animaux de compagnie
 items.Egg_Spawner_Kweebec_Razorleaf.name = Reproducteur d'oeufs - Kweebec Razorleaf
-items.Egg_Spawner_Sheep.name = Générateur d'œufs - Mouton
-items.Egg_Spawner_Trork.name = Générateur d'œufs - Trork
+items.Egg_Spawner_Sheep.name = Générateur d'oeufs - Mouton
+items.Egg_Spawner_Trork.name = Générateur d'oeufs - Trork
 items.Farming_Collar.name = Collier pour animaux de compagnie
 items.Filter_Air_Block.description = Filtre qui représente l'air.
 items.Filter_Air_Block.name = Filtre - Bloc Air
@@ -3995,13 +3995,13 @@ items.Fluid_Slime_Red.name = Boue rouge
 items.Fluid_Tar.name = Goudron
 items.Fluid_Water.name = Eau
 items.Fluid_Water_Test.name = Eau - Fini
-items.Food_Beef_Raw.name = Bœuf cru
+items.Food_Beef_Raw.name = Boeuf cru
 items.Food_Bread.name = Pain
 items.Food_Candy_Cane.name = Canne à sucre
 items.Food_Cheese.name = Fromage
 items.Food_Chicken_Raw.name = Poulet cru
 items.Ingredient_Dough.name = Pâte
-items.Food_Egg.name = Œuf
+items.Food_Egg.name = Oeuf
 items.Food_Fish_Grilled.name = Poisson Grillé
 items.Food_Fish_Raw.name = Poisson cru
 items.Ingredient_Flour.name = Farine
@@ -4443,21 +4443,21 @@ items.Ingredient_Feathers_Red.name = Plumes rouges
 items.Ingredient_Fibre.name = Fibre végétale
 items.Ingredient_Hay.name = Balle de foin
 items.Ingredient_Hide_Dark.name = Peau sombre
-items.Ingredient_Hide_Dark.description = [TMP] Peut être traité en<item is= "Ingredient_Leather_Dark"/>à un<item is= "Bench_Tannery"/>.
+items.Ingredient_Hide_Dark.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Dark"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Heavy.name = Peau lourde
-items.Ingredient_Hide_Heavy.description = [TMP] Peut être traité en<item is= "Ingredient_Leather_Heavy"/>à un<item is= "Bench_Tannery"/>.
-items.Ingredient_Hide_Light.name = Cacher la lumière
-items.Ingredient_Hide_Light.description = [TMP] Peut être traité en<item is= "Ingredient_Leather_Light"/>à un<item is= "Bench_Tannery"/>.
+items.Ingredient_Hide_Heavy.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Heavy"/> à un <item is="Bench_Tannery"/>.
+items.Ingredient_Hide_Light.name = Peau légère
+items.Ingredient_Hide_Light.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Light"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Medium.name = Peau moyenne
-items.Ingredient_Hide_Medium.description = [TMP] Peut être traité en<item is= "Ingredient_Leather_Medium"/>à un<item is= "Bench_Tannery"/>.
+items.Ingredient_Hide_Medium.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Medium"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Prismic.name = Peau prismatique
-items.Ingredient_Hide_Prismic.description = [TMP] Peut être traité en<item is= "Ingredient_Leather_Prismic"/>à un<item is= "Bench_Tannery"/>.
+items.Ingredient_Hide_Prismic.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Prismic"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Scaled.name = Masquer à l'échelle
-items.Ingredient_Hide_Scaled.description = [TMP] Peut être traité en<item is= "Ingredient_Leather_Scaled"/>à un<item is= "Bench_Tannery"/>.
+items.Ingredient_Hide_Scaled.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Scaled"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Soft.name = Peau douce
-items.Ingredient_Hide_Soft.description = [TMP] Peut être traité en<item is= "Ingredient_Leather_Soft"/>à un<item is= "Bench_Tannery"/>.
+items.Ingredient_Hide_Soft.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Soft"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Storm.name = Cacher la tempête
-items.Ingredient_Hide_Storm.description = [TMP] Peut être traité en<item is= "Ingredient_Leather_Storm"/>à un<item is= "Bench_Tannery"/>.
+items.Ingredient_Hide_Storm.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Storm"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Leather_Dark.name = Cuir foncé
 items.Ingredient_Leather_Heavy.name = Cuir épais
 items.Ingredient_Leather_Heavy.description = Fabriqué à partir des peaux épaisses de grands prédateurs.\n\n<i>Chaque chasseur aspire à abattre les créatures dont on parle uniquement dans les mythes. À l'exception de quelques-uns qui se sont regroupés à l'époque des héros, la plupart doivent plutôt se contenter d'ours, de loups et d'autres prédateurs suprêmes.</i>
@@ -4479,7 +4479,7 @@ items.Ingredient_Ice_Essence.description = <i>Lorsque les Étranger ont rejeté 
 items.Ingredient_Life_Essence.name = Essence de vie
 items.Ingredient_Life_Essence.description = <i>Une forme d'énergie vitale débordante que l'on trouve en abondance autour de la vie végétale sur Orbis. Dans des concentrations suffisamment importantes, il pourrait peut-être même faire naître la sensibilité là où elle était absente auparavant.</i>
 items.Ingredient_Life_Essence_Concentrated.name = Essence de vie supérieure
-items.Ingredient_Life_Essence_Concentrated.description = Une fusion équivalente à<color is= "#3e9049">100 Essences de vie</color>.
+items.Ingredient_Life_Essence_Concentrated.description = Une fusion équivalente à <color is="#3e9049">100 Essences de vie</color>.
 items.Ingredient_Lightning_Essence.name = Essence de foudre
 items.Ingredient_Lightning_Essence.description = <i>Les tempêtes déchaînées se sont révélées attrayantes pour de nombreuses créatures au fil des siècles. Bien que la véritable source d'une telle magie soit introuvable, les élémentaux nés de ses traces persistantes errent toujours sur les terres.</i>
 items.Ingredient_Void_Essence.name = Essence du vide
@@ -4497,14 +4497,14 @@ items.Media_RemoteControl.name = Télécommande multimédia
 items.Objective_Bounty.name = Prime
 items.Objective_Treasure_Map.name = Carte au Trésor
 items.Ore_Adamantite.name = Minerai d'adamantite
-items.Ore_Adamantite.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Adamantite"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Adamantite.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Adamantite"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Adamantite_Basalt.name = Minerai d'adamantite - Basalte
 items.Ore_Adamantite_Shale.name = Minerai d'adamantite - Schiste
 items.Ore_Adamantite_Slate.name = Minerai d'adamantite - Ardoise
 items.Ore_Adamantite_Stone.name = Minerai d'adamantite - Pierre
 items.Ore_Adamantite_Volcanic.name = Minerai d'adamantite - Volcanique
 items.Ore_Cobalt.name = Minerai de cobalt
-items.Ore_Cobalt.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Cobalt"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Cobalt.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Cobalt"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Cobalt_Basalt.name = Minerai de cobalt - Basalte
 items.Ore_Cobalt_Sandstone.name = Minerai de cobalt - Grès
 items.Ore_Cobalt_Shale.name = Minerai de cobalt - Schiste
@@ -4512,21 +4512,21 @@ items.Ore_Cobalt_Slate.name = Minerai de cobalt - Ardoise
 items.Ore_Cobalt_Stone.name = Minerai de cobalt - Pierre
 items.Ore_Cobalt_Volcanic.name = Minerai de cobalt - Volcanique
 items.Ore_Copper.name = Minerai de cuivre
-items.Ore_Copper.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Copper"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Copper.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Copper"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Copper_Basalt.name = Minerai de cuivre - Basalte
 items.Ore_Copper_Sandstone.name = Minerai de cuivre - Grès
 items.Ore_Copper_Shale.name = Minerai de cuivre - Schiste
 items.Ore_Copper_Stone.name = Minerai de cuivre - Pierre
 items.Ore_Copper_Volcanic.name = Minerai de cuivre - Volcanique
 items.Ore_Gold.name = Minerai d'or
-items.Ore_Gold.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Gold"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Gold.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Gold"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Gold_Basalt.name = Minerai d'or - Basalte
 items.Ore_Gold_Sandstone.name = Minerai d'or - Grès
 items.Ore_Gold_Shale.name = Minerai d'or - Schiste
 items.Ore_Gold_Stone.name = Minerai d'or - Pierre
 items.Ore_Gold_Volcanic.name = Minerai d'or - Volcanique
 items.Ore_Iron.name = Minerai de fer
-items.Ore_Iron.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Iron"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Iron.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Iron"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Iron_Basalt.name = Minerai de fer - Basalte
 items.Ore_Iron_Sandstone.name = Minerai de fer - Grès
 items.Ore_Iron_Shale.name = Minerai de fer - Schiste
@@ -4534,23 +4534,23 @@ items.Ore_Iron_Slate.name = Minerai de fer - Ardoise
 items.Ore_Iron_Stone.name = Minerai de fer - Pierre
 items.Ore_Iron_Volcanic.name = Minerai de fer - Volcanique
 items.Ore_Mithril.name = Minerai de mithril
-items.Ore_Mithril.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Mithril"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Mithril.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Mithril"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Mithril_Basalt.name = Minerai de mithril - Basalte
 items.Ore_Mithril_Magma.name = Minerai de mithril - Magma
 items.Ore_Mithril_Slate.name = Minerai de mithril - Ardoise
 items.Ore_Mithril_Stone.name = Minerai de mithril - Pierre
 items.Ore_Mithril_Volcanic.name = Minerai de mithril – Volcanique
 items.Ore_Onyxium.name = Minerai d'onyxium
-items.Ore_Onyxium.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Onyxium"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Onyxium.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Onyxium"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Onyxium_Basalt.name = Minerai d'onyxium - Basalte
 items.Ore_Onyxium_Stone.name = Minerai d'onyxium - Pierre
 items.Ore_Onyxium_Shale.name = Minerai d'onyxium - Schiste
 items.Ore_Onyxium_Volcanic.name = Minerai d'onyxium - Volcanique
 items.Ore_Onyxium_Sandstone.name = Minerai d'onyxium - Grès
 items.Ore_Prisma.name = Heures de prisme
-items.Ore_Prisma.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Prisma"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Prisma.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Prisma"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Silver.name = Minerai d'argent
-items.Ore_Silver.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Silver"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Silver.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Silver"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Silver_Basalt.name = Minerai d'argent - Basalte
 items.Ore_Silver_Sandstone.name = Minerai d'argent - Grès
 items.Ore_Silver_Shale.name = Minerai d'argent - Schiste
@@ -4558,7 +4558,7 @@ items.Ore_Silver_Slate.name = Minerai d'argent - Ardoise
 items.Ore_Silver_Stone.name = Minerai d'argent - Pierre
 items.Ore_Silver_Volcanic.name = Minerai d'argent - Volcanique
 items.Ore_Thorium.name = Minerai de thorium
-items.Ore_Thorium.description = [TMP] Peut être fondu dans un<item is= "Ingredient_Bar_Thorium"/>à un<item is= "Bench_Furnace"/>.
+items.Ore_Thorium.description = [TMP] Peut être fondu dans un <item is="Ingredient_Bar_Thorium"/> à un <item is="Bench_Furnace"/>.
 items.Ore_Thorium_Basalt.name = Minerai de thorium - Basalte
 items.Ore_Thorium_Sandstone.name = Minerai de thorium - Grès
 items.Ore_Thorium_Shale.name = Minerai de thorium - schiste
@@ -4651,9 +4651,9 @@ items.Plant_Crop_Aubergine_Stage_2.name = Jeune Aubergine
 items.Plant_Crop_Aubergine_StageFinal.name = Aubergines mûres
 items.Plant_Crop_Berry_Stage_0.name = Buisson de baies
 items.Plant_Crop_Berry_Block.name = Buisson de baies
-items.Plant_Crop_Berry_Block.description = [TMP] Récolte :\n•<color is= "#4ade80">1-2</color><color is= "#ffffff">Baies sauvages</color>\n\nTemps de croissance :\n•<color is= "#4ade80">2</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">1</color><color is= "#ffffff">Jour</color>\n•<color is= "#ffffff">Repousse</color>
-items.Plant_Crop_Berry_Winter_Block.description = [TMP] Récolte :\n•<color is= "#4ade80">1-2</color><color is= "#ffffff">Baies sauvages</color>\n\nTemps de croissance :\n•<color is= "#4ade80">2</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">1</color><color is= "#ffffff">Jour</color>\n•<color is= "#ffffff">Repousse</color>
-items.Plant_Crop_Berry_Wet_Block.description = [TMP] Récolte :\n•<color is= "#4ade80">1-2</color><color is= "#ffffff">Baies sauvages</color>\n\nTemps de croissance :\n•<color is= "#4ade80">2</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">1</color><color is= "#ffffff">Jour</color>\n•<color is= "#ffffff">Repousse</color>
+items.Plant_Crop_Berry_Block.description = [TMP] Récolte :\n•<color is="#4ade80">1-2</color><color is="#ffffff">Baies sauvages</color>\n\nTemps de croissance :\n•<color is="#4ade80">2</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">1</color><color is="#ffffff">Jour</color>\n•<color is="#ffffff">Repousse</color>
+items.Plant_Crop_Berry_Winter_Block.description = [TMP] Récolte :\n•<color is="#4ade80">1-2</color><color is="#ffffff">Baies sauvages</color>\n\nTemps de croissance :\n•<color is="#4ade80">2</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">1</color><color is="#ffffff">Jour</color>\n•<color is="#ffffff">Repousse</color>
+items.Plant_Crop_Berry_Wet_Block.description = [TMP] Récolte :\n•<color is="#4ade80">1-2</color><color is="#ffffff">Baies sauvages</color>\n\nTemps de croissance :\n•<color is="#4ade80">2</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">1</color><color is="#ffffff">Jour</color>\n•<color is="#ffffff">Repousse</color>
 items.Plant_Crop_Carrot.name = Carotte
 items.Plant_Crop_Carrot_Stage_0.name = Graines de carotte
 items.Plant_Crop_Carrot_Stage_1.name = Pousse de carotte
@@ -5045,33 +5045,33 @@ items.Plant_Roots_Cave.name = Racines de grotte suspendues
 items.Plant_Roots_Cave_Small.name = Racines des grottes
 items.Plant_Roots_Leafy.name = Racines de grottes feuillues
 items.Plant_Sapling_Ash.name = Jeune frêne
-items.Plant_Sapling_Ash.description = [TMP] Se transforme en<color is= "#ffffff">Frêne</color>.\n• Rendements<color is= "#ffffff">Feuillus</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Ash.description = [TMP] Se transforme en <color is="#ffffff">Frêne</color>.\n• Rendements <color is="#ffffff">Feuillus</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Apple.name = Jeune arbre de pomme
-items.Plant_Sapling_Apple.description = [TMP] Se transforme en<color is= "#ffffff">Pommier</color>.\n• Rend<color is= "#ffffff">Feuillus</color>\n• Pousse<color is= "#4ade80">8</color><color is= "#ffffff">Pommes</color>\n• Les pommes repoussent tous les<color is= "#4ade80">12</color><color is= "#ffffff">Heures</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">5</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Apple.description = [TMP] Se transforme en <color is="#ffffff">Pommier</color>.\n• Rend <color is="#ffffff">Feuillus</color>\n• Pousse <color is="#4ade80">8</color><color is="#ffffff">Pommes</color>\n• Les pommes repoussent tous les <color is="#4ade80">12</color><color is="#ffffff">Heures</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">5</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Beech.name = Jeune hêtre
-items.Plant_Sapling_Beech.description = [TMP] Se transforme en<color is= "#ffffff">Hêtre</color>.\n• Rendements<color is= "#ffffff">Résineux</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Beech.description = [TMP] Se transforme en <color is="#ffffff">Hêtre</color>.\n• Rendements <color is="#ffffff">Résineux</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Birch.name = Jeune arbre de bouleau
-items.Plant_Sapling_Birch.description = [TMP] Se transforme en<color is= "#ffffff">Bouleau</color>.\n• Rendements<color is= "#ffffff">Bois clair</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Birch.description = [TMP] Se transforme en <color is="#ffffff">Bouleau</color>.\n• Rendements <color is="#ffffff">Bois clair</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Cedar.name = Jeune arbre de cèdre
-items.Plant_Sapling_Cedar.description = [TMP] Se transforme en<color is= "#ffffff">Cèdre</color>.\n• Rendements<color is= "#ffffff">Darkwood</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Stages</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Cedar.description = [TMP] Se transforme en <color is="#ffffff">Cèdre</color>.\n• Rendements <color is="#ffffff">Darkwood</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Stages</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Crystal.name = Jeune arbre de cristal
-items.Plant_Sapling_Crystal.description = [TMP] Se transforme en<color is= "#ffffff">Arbre de cristal</color>.\n• Rendements<color is= "#ffffff">Bois</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Crystal.description = [TMP] Se transforme en <color is="#ffffff">Arbre de cristal</color>.\n• Rendements <color is="#ffffff">Bois</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Dry.name = Jeune arbre sec
-items.Plant_Sapling_Dry.description = [TMP] Pousse en un<color is= "#ffffff">Arbre sec</color>.\n• Rendements<color is= "#ffffff">Bois sec</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Dry.description = [TMP] Pousse en un <color is="#ffffff">Arbre sec</color>.\n• Rendements <color is="#ffffff">Bois sec</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Oak.name = Jeune arbre de chêne
-items.Plant_Sapling_Oak.description = [TMP] Se transforme en<color is= "#ffffff">Chêne</color>.\n• Rendements<color is= "#ffffff">Feuillus</color>\n\nTemps de croissance :\n•<color is= "#4ade80">7</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">3</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Oak.description = [TMP] Se transforme en <color is="#ffffff">Chêne</color>.\n• Rendements <color is="#ffffff">Feuillus</color>\n\nTemps de croissance :\n•<color is="#4ade80">7</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">3</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Palm.name = Jeune palmier
-items.Plant_Sapling_Palm.description = [TMP] Se transforme en<color is= "#ffffff">Palmier</color>.\n• Rendements<color is= "#ffffff">Bois doré</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Palm.description = [TMP] Se transforme en <color is="#ffffff">Palmier</color>.\n• Rendements <color is="#ffffff">Bois doré</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Poisoned.name = Jeune arbre empoisonné
-items.Plant_Sapling_Poisoned.description = [TMP] Se transforme en<color is= "#ffffff">Arbre empoisonné</color>.\n• Rendements<color is= "#ffffff">Bois mort</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Poisoned.description = [TMP] Se transforme en <color is="#ffffff">Arbre empoisonné</color>.\n• Rendements <color is="#ffffff">Bois mort</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Redwood.name = Jeune arbre de séquoia
-items.Plant_Sapling_Redwood.description = [TMP] Se transforme en<color is= "#ffffff">Séquoia</color>.\n• Rendements<color is= "#ffffff">Séquoia</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Redwood.description = [TMP] Se transforme en <color is="#ffffff">Séquoia</color>.\n• Rendements <color is="#ffffff">Séquoia</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Spruce.name = Jeune épicéa
-items.Plant_Sapling_Spruce.description = [TMP] Se transforme en<color is= "#ffffff">Épicéa</color>.\n• Rendements<color is= "#ffffff">Bois dur</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Spruce.description = [TMP] Se transforme en <color is="#ffffff">Épicéa</color>.\n• Rendements <color is="#ffffff">Bois dur</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Spruce_Frozen.name = Jeune épicéa congelé
-items.Plant_Sapling_Spruce_Frozen.description = [TMP] Se transforme en<color is= "#ffffff">Épicéa gelé</color>.\n• Rendements<color is= "#ffffff">Feu dur</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Spruce_Frozen.description = [TMP] Se transforme en <color is="#ffffff">Épicéa gelé</color>.\n• Rendements <color is="#ffffff">Feu dur</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Sapling_Windwillow.name = Jeune arbre de sable
-items.Plant_Sapling_Windwillow.description = [TMP] Se transforme en<color is= "#ffffff">Arbre de sable</color>.\n• Rendements<color is= "#ffffff">Bois</color>\n\nTemps de croissance :\n•<color is= "#4ade80">5</color><color is= "#ffffff">Étapes</color>\n•<color is= "#4ade80">2</color><color is= "#ffffff">Jours</color>
+items.Plant_Sapling_Windwillow.description = [TMP] Se transforme en <color is="#ffffff">Arbre de sable</color>.\n• Rendements <color is="#ffffff">Bois</color>\n\nTemps de croissance :\n•<color is="#4ade80">5</color><color is="#ffffff">Étapes</color>\n•<color is="#4ade80">2</color><color is="#ffffff">Jours</color>
 items.Plant_Seaweed_Arid_Red.name = Algues rouges arides
 items.Plant_Seaweed_Arid_Short.name = Algues courtes arides
 items.Plant_Seaweed_Arid_Stack.name = Pile d'algues arides
@@ -5222,17 +5222,17 @@ items.Launchpad.name = Plateforme de lancement
 items.Portal_Pad_Wind.name = Plateforme de distorsion
 items.Portal_Pad_Zone2.name = Portail de donjon
 items.Portal_Prefab.name = Portail préfabriqué
-items.PortalKey.description = Placez-vous dans le<item is= "Portal_Device"/>pour visiter ce Fragment.\nTravail en cours
+items.PortalKey.description = Placez-vous dans le <item is="Portal_Device"/> pour visiter ce Fragment.\nTravail en cours
 items.PortalKey_Windsurf_Valley.name = Fragment : Orbis - Vallée de Windrider
-items.PortalKey_Windsurf_Valley.description = <msg key= "server.items.PortalKey.description"/>\n\n<i>A Feran valorise la liberté par-dessus tout, et cette liberté n'est nulle part plus incarnée que dans les vents de Windrider Valley.</i>
+items.PortalKey_Windsurf_Valley.description = <msg key="server.items.PortalKey.description"/>\n\n<i>A Feran valorise la liberté par-dessus tout, et cette liberté n'est nulle part plus incarnée que dans les vents de Windrider Valley.</i>
 items.PortalKey_Jungles.name = Fragment : Orbis - Refuge Tal'Kesi
-items.PortalKey_Jungles.description = <msg key= "server.items.PortalKey.description"/>\n\n<i>Au plus profond des terres désolées laissées par une ancienne civilisation, un havre primordial prospère.</i>
+items.PortalKey_Jungles.description = <msg key="server.items.PortalKey.description"/>\n\n<i>Au plus profond des terres désolées laissées par une ancienne civilisation, un havre primordial prospère.</i>
 items.PortalKey_Taiga.name = Fragment : Orbis - Dragonspire Weald
-items.PortalKey_Taiga.description = <msg key= "server.items.PortalKey.description"/>\n\n<i>Il existe des forêts gelées dans lesquelles même un étranger n'ose mettre les pieds, peu importe les chuchotements.</i>
+items.PortalKey_Taiga.description = <msg key="server.items.PortalKey.description"/>\n\n<i>Il existe des forêts gelées dans lesquelles même un étranger n'ose mettre les pieds, peu importe les chuchotements.</i>
 items.PortalKey_Hederas_Lair.name = Fragment : Orbis - Le Dread Wade
-items.PortalKey_Hederas_Lair.description = <msg key= "server.items.PortalKey.description"/>\n\n<i>Peu de gens ont connu les terreurs qui se cachent dans les profondeurs les plus obscures d'Orbis.</i>
+items.PortalKey_Hederas_Lair.description = <msg key="server.items.PortalKey.description"/>\n\n<i>Peu de gens ont connu les terreurs qui se cachent dans les profondeurs les plus obscures d'Orbis.</i>
 items.PortalKey_Henges.name = Fragment : Orbis - Silent Henge
-items.PortalKey_Henges.description = <msg key= "server.items.PortalKey.description"/>\n\n<i>Une mystérieuse tour suspendue au-dessus d'une terre gelée.</i>
+items.PortalKey_Henges.description = <msg key="server.items.PortalKey.description"/>\n\n<i>Une mystérieuse tour suspendue au-dessus d'une terre gelée.</i>
 items.Portal_Device.name = Ancienne porte d'entrée
 items.Portal_Device.description = Placez-le dans votre base pour abattre les barrières et voyager vers d'autres fragments !<i>\nTravail en cours.\n\nBien que la malédiction tienne l'Orbis de Gaia enfermé, il existe des moyens de percer le Vide qui le voile.</i>
 items.Hub_Portal_Zone3_Taiga1.name = Portail de la taïga de la zone 3
@@ -5250,7 +5250,7 @@ items.VoidInvasion_Portal.description = Bloc utilitaire pour les invasions du vi
 items.Potion_Antidote.name = Antidote
 items.Potion_Antidote.description = Guérit le poison et accorde une immunité temporaire.
 items.Potion_Empty.name = Bouteille de potion vide
-items.Potion_Empty.description = Peut être acquis en fondant du sable dans un<item is= "Bench_Furnace"/>.
+items.Potion_Empty.description = Peut être acquis en fondant du sable dans un <item is="Bench_Furnace"/>.
 items.Potion_Empty_Large.name = Grande bouteille de potion
 items.Potion_Empty_Small.name = Petite bouteille de potion
 items.Potion_Health.name = Potion de santé
@@ -5412,14 +5412,14 @@ items.Rail.name = Rail
 items.Recipe_Book_Magic_Air.name = Grimoire aérien
 items.Recipe_Book_Magic_Void.name = Grimoire du Vide
 items.Recipe_Page.name = Page de recettes
-items.Recipe_Plant_Seeds_Health1.name = Recette : Graine de rose sanguine
-items.Recipe_Plant_Seeds_Health2.name = Recette : Graine de champignon Bloodcap
+items.Recipe_Plant_Seeds_Health1.name = Recette: Graine de rose sanguine
+items.Recipe_Plant_Seeds_Health2.name = Recette: Graine de champignon Bloodcap
 items.Recipe_Plant_Seeds_Health3.name = Recette : Graine de feuille de sang
 items.Recipe_Plant_Seeds_Stamina1.name = Recette : Graines de chardon-tempête
-items.Recipe_Plant_Seeds_Stamina2.name = Recette : Graine de champignon Stormcap
-items.Recipe_Plant_Seeds_Stamina3.name = Recette : Graine de jeune arbre de tempête
+items.Recipe_Plant_Seeds_Stamina2.name = Recette: Graine de champignon Stormcap
+items.Recipe_Plant_Seeds_Stamina3.name = Recette: Graine de jeune arbre de tempête
 items.Recipe_Plant_Seeds_Mana1.name = Recette : Graine de fougère azur
-items.Recipe_Plant_Seeds_Mana2.name = Recette : Graine de champignon Azurecap
+items.Recipe_Plant_Seeds_Mana2.name = Recette: Graine de champignon Azurecap
 items.Recipe_Plant_Seeds_Mana3.name = Recette : Graine de varech azur
 items.Rock_Aqua.name = Pierre Aquatique
 items.Rock_Aqua_Brick.name = Brique Aqua
@@ -5544,7 +5544,7 @@ items.Rock_Crystal_Yellow_Medium.name = Cristal Jaune - Moyen
 items.Rock_Crystal_Yellow_Small.name = Cristal jaune - Petit
 items.Rock_Gem_Diamond.name = Diamant
 items.Rock_Gem_Emerald.name = Émeraude
-items.Rock_Gem_Emerald.description = <i>Le cœur des puissants Golems est souvent formé de ces pierres précieuses. Les arcanistes recherchaient autrefois l'aide de creuseurs industriels pour localiser des poches riches en profondeur.</i>
+items.Rock_Gem_Emerald.description = <i>Le coeur des puissants Golems est souvent formé de ces pierres précieuses. Les arcanistes recherchaient autrefois l'aide de creuseurs industriels pour localiser des poches riches en profondeur.</i>
 items.Rock_Gem_Ruby.name = Rubis
 items.Rock_Gem_Sapphire.name = Saphir
 items.Rock_Gem_Topaz.name = Topaze
@@ -5831,44 +5831,44 @@ items.Rock_Volcanic_Half.name = Demi-dalle de roche volcanique
 items.Rock_Volcanic_Stalactite_Large.name = Stalactite volcanique - Grande
 items.Rock_Volcanic_Stalactite_Small.name = Stalactite volcanique - Petite
 items.Rubble_Aqua.name = Aqua décombres
-items.Rubble_Aqua.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Aqua.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Aqua_Medium.name = Aqua Rubble - Moyen
 items.Rubble_Basalt.name = Décombres de basalte
-items.Rubble_Basalt.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Basalt.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Basalt_Medium.name = Décombres de basalte - Moyen
 items.Rubble_Calcite.name = Décombres de calcite
-items.Rubble_Calcite.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Calcite.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Calcite_Medium.name = Décombres de calcite - Moyen
 items.Rubble_Ice.name = Morceaux de glace
 items.Rubble_Ice_Medium.name = Morceaux de glace - Moyen
 items.Rubble_Marble.name = Décombres de marbre
-items.Rubble_Marble.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Marble.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Marble_Medium.name = Décombres de marbre - Moyen
 items.Rubble_Quartzite.name = Décombres de quartzite
-items.Rubble_Quartzite.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Quartzite.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Quartzite_Medium.name = Décombres de quartzite - Moyen
 items.Rubble_Sandstone.name = Décombres de grès
-items.Rubble_Sandstone.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Sandstone.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Sandstone_Medium.name = Gravés de grès - Moyen
 items.Rubble_Sandstone_Red.name = Décombres de grès rouge
-items.Rubble_Sandstone_Red.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Sandstone_Red.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Sandstone_Red_Medium.name = Gravés de Grès Rouge - Moyen
 items.Rubble_Sandstone_White.name = Décombres de grès blanc
-items.Rubble_Sandstone_White.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Sandstone_White.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Sandstone_White_Medium.name = Gravés de Grès Blanc - Moyen
 items.Rubble_Shale.name = Décombres de schiste
-items.Rubble_Shale.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Shale.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Shale_Medium.name = Décombres de schiste - Moyen
 items.Rubble_Slate.name = Décombres d'ardoise
-items.Rubble_Slate.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Slate.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Slate_Medium.name = Gravés d'ardoise - Moyen
 items.Rubble_Stone.name = Décombres de pierre
-items.Rubble_Stone.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Stone.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Stone_Medium.name = Décombres de pierre - Moyen
 items.Rubble_Stone_Mossy.name = Décombres de pierres moussues
 items.Rubble_Stone_Mossy_Medium.name = Décombres de pierre moussus - Moyen
 items.Rubble_Volcanic.name = Décombres volcaniques
-items.Rubble_Volcanic.description = [TMP] Peut également être acquis en brisant des pavés dans un<item is= "Bench_Salvage"/>.
+items.Rubble_Volcanic.description = [TMP] Peut également être acquis en brisant des pavés dans un <item is="Bench_Salvage"/>.
 items.Rubble_Volcanic_Medium.name = Décombres volcaniques - Moyen
 items.Soil_Ash.name = Sol cendré
 items.Soil_Clay.name = Argile
@@ -6027,7 +6027,7 @@ items.Tool_Capture_Crate.description = Utilisé pour capturer des petits animaux
 items.Tool_Feedbag.name = Sac d'alimentation
 items.Tool_Feedbag.description = [TMP] Un sac de nourriture pour animaux, certains animaux pourraient être attirés par ça.
 items.Tool_Fertilizer.name = Sac d'engrais
-items.Tool_Fertilizer.description = [TMP] Utilisé pour fertiliser le sol labouré. Les cultures fertilisées poussent<color is= "#4ade80">2x</color>plus vite.
+items.Tool_Fertilizer.description = [TMP] Utilisé pour fertiliser le sol labouré. Les cultures fertilisées poussent <color is="#4ade80">2x</color> plus vite.
 items.Tool_Fishing_Trap.name = Piège à pêche
 items.Tool_Fishing_Trap.description = Installé au-dessus de l'eau pour attraper du poisson au fil du temps.
 items.Tool_Trap_Bait.name = Appât pour poisson (sauvage)
@@ -6083,9 +6083,9 @@ items.Tool_Sickle_Crude.name = Faucille brute
 items.Tool_Sickle_Steel_Rusty.name = Faucille en acier rouillé
 items.Tool_Sickle.description = Peut être utilisé pour récolter plusieurs cultures en une seule fois.
 items.Tool_Watering_Can.name = Arrosoir vide
-items.Tool_Watering_Can.description = [TMP] Remplir d'eau à utiliser sur les cultures. Les cultures arrosées poussent<color is= "#4ade80">2,5x</color>plus vite.
+items.Tool_Watering_Can.description = [TMP] Remplir d'eau à utiliser sur les cultures. Les cultures arrosées poussent <color is="#4ade80">2,5x</color> plus vite.
 items.Tool_Watering_Can_Full.name = Arrosoir
-items.Tool_Watering_Can_Full.description = [TMP] Utilisé pour arroser les cultures sur un sol labouré. Les cultures arrosées poussent<color is= "#4ade80">2,5x</color>plus vite.
+items.Tool_Watering_Can_Full.description = [TMP] Utilisé pour arroser les cultures sur un sol labouré. Les cultures arrosées poussent <color is="#4ade80">2,5x</color> plus vite.
 items.Trap_Ancient_Platform.name = Piège à plate-forme antique fissuré
 items.Trap_Ice.name = Piège à glace craquelée
 items.Trap_Slate.name = Piège en ardoise fissurée
@@ -6308,9 +6308,9 @@ items.Weapon_Staff_Cobalt.name = Bâton de cobalt
 items.Weapon_Staff_Copper.name = Bâton de cuivre
 items.Weapon_Staff_Crystal_Fire_Trork.name = Bâton de Trork
 items.Weapon_Staff_Crystal_Flame.name = Bâton de cristal de flamme
-items.Weapon_Staff_Crystal_Flame.description = [TMP] Consomme<item is= "Ingredient_Fire_Essence"/>.\n\n<color is= "#ccaa00">Travail en cours</color>
+items.Weapon_Staff_Crystal_Flame.description = [TMP] Consomme <item is="Ingredient_Fire_Essence"/>.\n\n<color is="#ccaa00">Travail en cours</color>
 items.Weapon_Staff_Crystal_Ice.name = Bâton de cristal de glace
-items.Weapon_Staff_Crystal_Ice.description = [TMP] Consomme<item is= "Ingredient_Ice_Essence"/>.\n\n<color is= "#ccaa00">Travail en cours</color>
+items.Weapon_Staff_Crystal_Ice.description = [TMP] Consomme <item is="Ingredient_Ice_Essence"/>.\n\n<color is="#ccaa00">Travail en cours</color>
 items.Weapon_Staff_Crystal_Purple.name = Bâton de cristal violet
 items.Weapon_Staff_Crystal_Red.name = Bâton de cristal rouge
 items.Weapon_Staff_Doomed.name = Bâton de l'Étranger maudit
@@ -6720,8 +6720,8 @@ items.Wood_Wisteria_Wild_Trunk_Full.name = Tronc d'arbre de glycine
 items.Prototype_Geyser.name = Générateur de geyser prototype
 items.Ingredient_Chitin_Sturdy.name = Chitine robuste
 items.Ingredient_Chitin_Sturdy.description = <i>Ce matériau résistant forme les exosquelettes de nombreuses créatures trouvées à travers les terres.</i>
-items.Ingredient_Voidheart.name = Cœur du Vide
-items.Ingredient_Voidheart.description = <i>Le cœur toujours battant d'un plus grand habitant du Vide.\n\nToutes les créatures ne sont pas nées du Vide, mais même celles capturées et corrompues peuvent porter ce même cœur ratatiné.</i>
+items.Ingredient_Voidheart.name = Coeur du Vide
+items.Ingredient_Voidheart.description = <i>Le coeur toujours battant d'un plus grand habitant du Vide.\n\nToutes les créatures ne sont pas nées du Vide, mais même celles capturées et corrompues peuvent porter ce même coeur ratatiné.</i>
 items.Ingredient_Sac_Venom.name = Venom Sac
 items.Ingredient_Sac_Venom.description = <i>Orbis abrite des créatures venimeuses de toutes formes et tailles. Les antidotes distillés à partir de leur venin par les Ferans étaient autrefois prisés à travers toutes les terres.</i>
 items.Prototype_Rock_Chalk_Brick_Pipe_Corner.name = Tuyau en brique de craie - Coin
@@ -6843,57 +6843,57 @@ items.Rock_Runic_Darkblue_Brick_Pipe_Short.name = Pipe en brique runique bleu fo
 items.Rock_Runic_Darkblue_Brick_Stairs.name = Escaliers en brique runique bleu foncé
 items.Rock_Runic_Darkblue_Brick_Wall.name = Mur de briques runiques bleu foncé
 items.Rock_Salt.name = Bloc de sel
-items.Rock_Salt.description = Peut être affiné au<item is= "Bench_Cooking"/>.
+items.Rock_Salt.description = Peut être affiné au <item is="Bench_Cooking"/>.
 items.Rock_Salt_Half.name = Demi-dalle de sel
 items.Rock_Slate_Cobble_Corner.name = Galets d'ardoise - Coin
-items.Plant_Fruit_Apple.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Fruit_Berries_Red.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Fruit_Berries_Blue.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Fruit_Orange.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Fruit_Pear.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Carrot_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Corn_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Potato_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Pumpkin_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Onion_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Lettuce_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Turnip_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Tomato_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Rice_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Cauliflower_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Chilli_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Crop_Aubergine_Item.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Mushroom_Brown.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Plant_Mushroom_Red.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé I</color>\n•<color is= "#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is= "#ffffff">0:45</color>
-items.Food_Vegetable_Cooked.description = [TMP] Restaure instantanément<color is= "#ffffff">10%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Kebab_Fruit.description = [TMP] Restaure instantanément<color is= "#ffffff">10%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Kebab_Vegetable.description = [TMP] Restaure instantanément<color is= "#ffffff">10%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Kebab_Mushroom.description = [TMP] Restaure instantanément<color is= "#ffffff">10%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Salad_Berry.description = [TMP] Restaure instantanément<color is= "#ffffff">10%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Salad_Mushroom.description = [TMP] Restaure instantanément<color is= "#ffffff">10%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Salad_Caesar.description = [TMP] Restaure instantanément<color is= "#ffffff">15%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé III</color>\n•<color is= "#ffffff">Augmentation d'endurance III</color>\n\nDurée :<color is= "#ffffff">6:00</color>
-items.Food_Pie_Apple.description = [TMP] Restaure instantanément<color is= "#ffffff">15%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé III</color>\n•<color is= "#ffffff">Augmentation d'endurance III</color>\n\nDurée :<color is= "#ffffff">6:00</color>
-items.Recipe_Food_Pie_Apple.name = [TMP] Recette : Tarte aux pommes
-items.Recipe_Food_Pie_Apple.description = [TMP] Apprend la recette<item is= "Food_Pie_Apple"/>.\n\nRétablit instantanément<color is= "#ffffff">15%</color>de santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé III</color>\n•<color is= "#ffffff">Augmentation d'endurance III</color>VAR_12__\nDurée :<color is= "#ffffff">6 :00</color>
-items.Recipe_Food_Pie_Pumpkin.name = [TMP] Recette : Tarte à la citrouille
-items.Recipe_Food_Pie_Pumpkin.description = [TMP] Apprend la recette<item is= "Food_Pie_Pumpkin"/>.\n\nRétablit instantanément<color is= "#ffffff">15%</color>de santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé III</color>\n•<color is= "#ffffff">Augmentation d'endurance III</color>VAR_12__\nDurée :<color is= "#ffffff">6 :00</color>
-items.Recipe_Food_Pie_Meat.name = [TMP] Recette : Tourte à la viande
-items.Recipe_Food_Pie_Meat.description = [TMP] Apprend la recette<item is= "Food_Pie_Meat"/>.\n\nRétablit instantanément<color is= "#ffffff">15%</color>de santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé III</color>\n•<color is= "#ffffff">Augmentation de santé III</color>VAR_12__\nDurée :<color is= "#ffffff">6 :00</color>
-items.Recipe_Food_Salad_Caesar.name = [TMP] Recette : Salade César
-items.Recipe_Food_Salad_Caesar.description = [TMP] Apprend la recette<item is= "Food_Salad_Caesar"/>.\n\nRétablit instantanément<color is= "#ffffff">15%</color>de santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé III</color>\n•<color is= "#ffffff">Augmentation d'endurance III</color>VAR_12__\nDurée :<color is= "#ffffff">6 :00</color>
-items.Food_Pie_Pumpkin.description = [TMP] Restaure instantanément<color is= "#ffffff">15%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé III</color>\n•<color is= "#ffffff">Augmentation d'endurance III</color>\n\nDurée :<color is= "#ffffff">6:00</color>
-items.Food_Wildmeat_Cooked.description = [TMP] Restaure instantanément<color is= "#ffffff">10 %</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation de santé II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Fish_Grilled.description = [TMP] Restaure instantanément<color is= "#ffffff">10 %</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation de santé II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Kebab_Meat.description = [TMP] Restaure instantanément<color is= "#ffffff">10 %</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé II</color>\n•<color is= "#ffffff">Augmentation de santé II</color>_\n\nDurée :<color is= "#ffffff">2:30</color>
-items.Food_Pie_Meat.description = [TMP] Restaure instantanément<color is= "#ffffff">15%</color>santé et accorde :\n\n•<color is= "#ffffff">Régénération de santé III</color>\n•<color is= "#ffffff">Augmentation de santé III</color>\n\nDurée :<color is= "#ffffff">6:00</color>
-items.Food_Wildmeat_Raw.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé.
-items.Food_Fish_Raw.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé.
-items.Food_Pork_Raw.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé.
-items.Food_Chicken_Raw.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé.
-items.Food_Beef_Raw.description = [TMP] Restaure instantanément<color is= "#ffffff">5%</color>santé.
-items.Food_Bread.description = [TMP] Restaure instantanément<color is= "#ffffff">15%</color>santé.
-items.Food_Popcorn.description = [TMP] Restaure instantanément<color is= "#ffffff">15%</color>santé.
-items.Food_Cheese.description = [TMP] Restaure instantanément<color is= "#ffffff">15%</color>santé.
+items.Plant_Fruit_Apple.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Fruit_Berries_Red.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Fruit_Berries_Blue.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Fruit_Orange.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Fruit_Pear.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Carrot_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Corn_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Potato_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Pumpkin_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Onion_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Lettuce_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Turnip_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Tomato_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Rice_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Cauliflower_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Chilli_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Crop_Aubergine_Item.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Mushroom_Brown.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Plant_Mushroom_Red.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé I</color>\n•<color is="#ffffff">Augmentation d'endurance I</color>\n\nDurée :<color is="#ffffff">0:45</color>
+items.Food_Vegetable_Cooked.description = [TMP] Restaure instantanément <color is="#ffffff">10%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Kebab_Fruit.description = [TMP] Restaure instantanément <color is="#ffffff">10%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Kebab_Vegetable.description = [TMP] Restaure instantanément <color is="#ffffff">10%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Kebab_Mushroom.description = [TMP] Restaure instantanément <color is="#ffffff">10%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Salad_Berry.description = [TMP] Restaure instantanément <color is="#ffffff">10%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Salad_Mushroom.description = [TMP] Restaure instantanément <color is="#ffffff">10%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation d'endurance II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Salad_Caesar.description = [TMP] Restaure instantanément <color is="#ffffff">15%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé III</color>\n•<color is="#ffffff">Augmentation d'endurance III</color>\n\nDurée :<color is="#ffffff">6:00</color>
+items.Food_Pie_Apple.description = [TMP] Restaure instantanément <color is="#ffffff">15%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé III</color>\n•<color is="#ffffff">Augmentation d'endurance III</color>\n\nDurée :<color is="#ffffff">6:00</color>
+items.Recipe_Food_Pie_Apple.name = [TMP] Recette: Tarte aux pommes
+items.Recipe_Food_Pie_Apple.description = [TMP] Apprend la recette <item is="Food_Pie_Apple"/>.\n\nRétablit instantanément <color is="#ffffff">15%</color> de santé et accorde :\n\n•<color is="#ffffff">Régénération de santé III</color>\n•<color is="#ffffff">Augmentation d'endurance III</color> VAR_12__\nDurée :<color is="#ffffff">6 :00</color>
+items.Recipe_Food_Pie_Pumpkin.name = [TMP] Recette: Tarte à la citrouille
+items.Recipe_Food_Pie_Pumpkin.description = [TMP] Apprend la recette <item is="Food_Pie_Pumpkin"/>.\n\nRétablit instantanément <color is="#ffffff">15%</color> de santé et accorde :\n\n•<color is="#ffffff">Régénération de santé III</color>\n•<color is="#ffffff">Augmentation d'endurance III</color> VAR_12__\nDurée :<color is="#ffffff">6 :00</color>
+items.Recipe_Food_Pie_Meat.name = [TMP] Recette: Tourte à la viande
+items.Recipe_Food_Pie_Meat.description = [TMP] Apprend la recette <item is="Food_Pie_Meat"/>.\n\nRétablit instantanément <color is="#ffffff">15%</color> de santé et accorde :\n\n•<color is="#ffffff">Régénération de santé III</color>\n•<color is="#ffffff">Augmentation de santé III</color> VAR_12__\nDurée :<color is="#ffffff">6 :00</color>
+items.Recipe_Food_Salad_Caesar.name = [TMP] Recette: Salade César
+items.Recipe_Food_Salad_Caesar.description = [TMP] Apprend la recette <item is="Food_Salad_Caesar"/>.\n\nRétablit instantanément <color is="#ffffff">15%</color> de santé et accorde :\n\n•<color is="#ffffff">Régénération de santé III</color>\n•<color is="#ffffff">Augmentation d'endurance III</color> VAR_12__\nDurée :<color is="#ffffff">6 :00</color>
+items.Food_Pie_Pumpkin.description = [TMP] Restaure instantanément <color is="#ffffff">15%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé III</color>\n•<color is="#ffffff">Augmentation d'endurance III</color>\n\nDurée :<color is="#ffffff">6:00</color>
+items.Food_Wildmeat_Cooked.description = [TMP] Restaure instantanément <color is="#ffffff">10 %</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation de santé II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Fish_Grilled.description = [TMP] Restaure instantanément <color is="#ffffff">10 %</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation de santé II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Kebab_Meat.description = [TMP] Restaure instantanément <color is="#ffffff">10 %</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé II</color>\n•<color is="#ffffff">Augmentation de santé II</color>_\n\nDurée :<color is="#ffffff">2:30</color>
+items.Food_Pie_Meat.description = [TMP] Restaure instantanément <color is="#ffffff">15%</color> santé et accorde :\n\n•<color is="#ffffff">Régénération de santé III</color>\n•<color is="#ffffff">Augmentation de santé III</color>\n\nDurée :<color is="#ffffff">6:00</color>
+items.Food_Wildmeat_Raw.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé.
+items.Food_Fish_Raw.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé.
+items.Food_Pork_Raw.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé.
+items.Food_Chicken_Raw.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé.
+items.Food_Beef_Raw.description = [TMP] Restaure instantanément <color is="#ffffff">5%</color> santé.
+items.Food_Bread.description = [TMP] Restaure instantanément <color is="#ffffff">15%</color> santé.
+items.Food_Popcorn.description = [TMP] Restaure instantanément <color is="#ffffff">15%</color> santé.
+items.Food_Cheese.description = [TMP] Restaure instantanément <color is="#ffffff">15%</color> santé.
 
 # = = =  map = = = 
 
@@ -6957,12 +6957,12 @@ memories.general.categories = Catégories
 memories.general.recordNum = Enregistrer{count, number}{count, plural, one {memory}, autre{memories}}
 memories.general.collected = Nouveau souvenir collecté ! '{memoryTitle}' découvert !
 memories.general.featureUnlockedNotification = Souvenirs débloqués ! Explorez les nombreuses versions d'Orbis pour collectionner des souvenirs !
-memories.general.featureUnlockedMessage = Vous avez débloqué la fonction Souvenirs !\nLorsque vous rencontrez des créatures, vous collecterez des souvenirs qui seront stockés dans votre inventaire.\nRapportez ces souvenirs au Cœur d'Orbis pour les enregistrer et débloquer des récompenses !
+memories.general.featureUnlockedMessage = Vous avez débloqué la fonction Souvenirs !\nLorsque vous rencontrez des créatures, vous collecterez des souvenirs qui seront stockés dans votre inventaire.\nRapportez ces souvenirs au Coeur d'Orbis pour les enregistrer et débloquer des récompenses !
 memories.general.discovered.tooltipText = Mémoire découverte !
 memories.general.undiscovered.tooltipText = Continuez à explorer pour découvrir ce souvenir !
 memories.general.memoriesLevelProgress = Niveau de mémoire :{level}(niveau suivant dans{count, plural, one {1 memory}autres{{count, number}mémoires}})
-memories.general.chestLocked.tooltipText = [TMP]<color is= "#990000"><b>Verrouillé</b></color>\n<color is= "#888888">Restaurer{count, number}{count, plural, one {memory}autre{memories}} pour déverrouiller.</color>
-memories.general.chestActive.tooltipText = [TMP]<color is= "#1eab1e"><b>Déverrouillé</b></color>\n<color is= "#888888">{count, number}{count, plural, one {memory}autre{memories}}</color>
+memories.general.chestLocked.tooltipText = [TMP]<color is="#990000"><b>Verrouillé</b></color>\n<color is="#888888">Restaurer{count, number}{count, plural, one {memory}autre{memories}} pour déverrouiller.</color>
+memories.general.chestActive.tooltipText = [TMP]<color is="#1eab1e"><b>Déverrouillé</b></color>\n<color is="#888888">{count, number}{count, plural, one {memory}autre{memories}}</color>
 memories.general.chestActive.level1.rewards = [TMP]\nPeut fabriquer les éléments suivants :\n• +3 coffres décoratifs (établi de meubles)\n• +2 graines éternelles (établi du fermier)\n\nTravail en cours
 memories.general.chestActive.level2.rewards = [TMP]\nPeut fabriquer les éléments suivants :\n• +3 coffres décoratifs (établi de meubles)\n• +4 graines éternelles (établi du fermier)\n\n+1 téléporteurs maximum\n\nTravail en cours
 memories.general.chestActive.level3.rewards = [TMP]\nPeut fabriquer les éléments suivants :\n• Potions de transformation (établi de l'alchimiste)\n• +3 coffres décoratifs (établi de meubles)\n• +4 graines éternelles (établi du fermier)\n\n+1 téléporteurs maximum\n\nTravail en cours
@@ -6984,17 +6984,17 @@ modules.objective.playerAlreadyDoingObjective = Vous êtes déjà en train d'att
 modules.objective.playerAlreadyDoingObjectiveLine = Vous êtes déjà en train de faire la ligne d'objectif '{id}' !
 modules.objective.task.alreadyInteractedWithNPC = Vous avez déjà interagi avec ce PNJ
 modules.reputation.reputationGroupNotFound = ReputationGroup avec l'ID '{id}' introuvable !
-modules.reputation.valueForGroup = Groupe de réputation : «{id}» avec valeur : «{value}»
-modules.reputation.success = Réputation du groupe : «{id}» remplacée par Valeur : «{value}» !
+modules.reputation.valueForGroup = Groupe de réputation: «{id}» avec valeur: «{value}»
+modules.reputation.success = Réputation du groupe: «{id}» remplacée par Valeur: «{value}» !
 modules.reputation.noRankFoundForValue = Aucun ReputationRank ne contient la valeur{value} !
-modules.ban.alreadyBanned = {name}est déjà banni !
-modules.ban.failedDisconnectReason = Échec de l'obtention du motif de déconnexion pour{name}
+modules.ban.alreadyBanned = {name} est déjà banni !
+modules.ban.failedDisconnectReason = Échec de l'obtention du motif de déconnexion pour {name}
 modules.ban.bannedWithReason = {name}banni définitivement pour "{reason}"
-modules.ban.lookupFailed = Échec de la recherche de l'UUID de{name} !
-modules.unban.playerNotBanned = {name}n'est pas interdit !
-modules.unban.success = {name}non banni
-modules.whitelist.addSuccess = Ajout de{name}à la liste blanche !
-modules.whitelist.alreadyWhitelisted = {name}est déjà sur la liste blanche !
+modules.ban.lookupFailed = Échec de la recherche de l'UUID de {name} !
+modules.unban.playerNotBanned = {name} n'est pas interdit !
+modules.unban.success = {name} non banni
+modules.whitelist.addSuccess = Ajout de {name} à la liste blanche !
+modules.whitelist.alreadyWhitelisted = {name} est déjà sur la liste blanche !
 modules.whitelist.removalSuccess = Suppression de{uuid}de la liste blanche !
 modules.whitelist.uuidNotWhitelisted = {uuid}n'est pas sur la liste blanche !
 modules.whitelist.alreadyEnabled = La liste blanche est déjà activée !
@@ -7005,7 +7005,7 @@ modules.whitelist.cleared = Liste blanche effacée !
 modules.whitelist.status = La liste blanche est actuellement{status} !
 modules.whitelist.size = {size}noms d'utilisateur sont actuellement sur liste blanche
 modules.whitelist.list = Liste blanche :{whitelist}
-modules.blockset.setNotFound = Échec de la recherche de{name}
+modules.blockset.setNotFound = Échec de la recherche de {name}
 modules.interaction.interactedWith = Interagi avec le type '{interactionType}' en utilisant l'élément '{item}' avec le bloc '{block}' à la position{pos} !
 modules.interaction.failedGetActiveSlot = Échec de la vérification getActiveSlot :{server}!= {packet}
 modules.interaction.builderToolInteractionError = L'interaction avec BuilderTool a atteint le serveur mais ne devrait pas !
@@ -7047,7 +7047,7 @@ npc.npcpath.noSuchPath = Aucun chemin de ce type{path}avec worldgenId{worldgenId
 npc.npcpath.editingPath = Chemin d'édition en cours :{path}
 npc.npcpath.pathMergedInto = Chemin{targetPathName}fusionné avec le chemin{activePathName}
 npc.npcpath.list.prefabPaths = Chemins préfabriqués actifs :\n
-npc.npcpath.list.details = \t{worldGenId}.{pathId}{pathName}[ Longueur :{length}, Nœuds chargés :{count}]\n
+npc.npcpath.list.details = \t{worldGenId}.{pathId}{pathName}[ Longueur :{length}, Noeuds chargés :{count}]\n
 npc.npcpath.nodes.pathDesc = Chemin [{name}] :\nLongueur :{length}\nEntièrement chargé :{isLoaded}\nWaypoints :
 npc.npcpath.nodes.waypointNotLoaded = \n#{index}(Non chargé)
 npc.spawn.spawnedOne = PNJ apparu :{type}
@@ -7074,7 +7074,7 @@ npc.tests.Test_Jumping = Vérifiez que le PNJ saute et laisse tomber correctemen
 npc.tests.Test_Walk_Leave = Vérifiez que le PNJ quitte la zone en utilisant l'orientation pour éviter les obstacles.
 npc.tests.Test_Walk_Seek = Vérifiez que le PNJ peut suivre le joueur dans des environnements complexes à l'aide de la recherche de chemin.
 npc.tests.Test_Watch = Vérifiez que le PNJ suit correctement le joueur en utilisant le mouvement de la tête.
-npc.tests.Test_Chained_Path = Vérifiez que le PNJ enchaîne successivement différents chemins lorsque les nœuds sont placés près de la fin de chaque chemin.
+npc.tests.Test_Chained_Path = Vérifiez que le PNJ enchaîne successivement différents chemins lorsque les noeuds sont placés près de la fin de chaque chemin.
 npc.tests.Test_Spawn_Action = Vérifiez que le PNJ génère correctement d'autres PNJ
 npc.tests.Test_State_Evaluator_Toggle = Vérifiez que le PNJ s'enfuit lorsque les PV sont inférieurs à 50 % et s'approche lorsqu'ils sont supérieurs à 50 %
 npc.tests.Test_State_Evaluator_Sleep = Vérifiez que le PNJ dort la nuit et est éveillé pendant la journée
@@ -7676,32 +7676,32 @@ portals.discoverySubtitle = Fragment d'Orbis
 portals.incomplete.description = <b>Les énergies contenues dans ce Fragment n'ont pas encore pris leur forme définitive. Tout ce que vous rencontrez à l'intérieur - l'histoire, la fonction et la forme - attend sa véritable forme.</b>
 portals.hederas_lair.description = Rares sont ceux qui ont connu les terreurs qui se cachent dans les profondeurs les plus obscures d'Orbis. Encore moins sont revenus inchangés.\n\
 \n\
-<msg key= "server.portals.incomplete.description"/>
+<msg key="server.portals.incomplete.description"/>
 portals.boreal.description = Il existe des forêts gelées dans lesquelles même un Étranger n'ose pas mettre les pieds, peu importe les murmures qui l'appellent.\n\
 \n\
 Legends about the region's name pile up: Mountains obscuring the sky, towering trees grazing the clouds, or perhaps ancient creatures born of elemental ice slumbering among the peaks.\n\
 \n\
-<msg key= "server.portals.incomplete.description"/>
+<msg key="server.portals.incomplete.description"/>
 portals.henges.description = Parfois, la frontière entre vérité et fiction s’estompe. Tous les fragments de l'Ancien Portail ne montrent pas que vous détenez les vérités que vous recherchez.\n\
 \n\
 Yet, surely nothing exists without purpose. Perhaps that leads us to a different question: who built these Ancient Gateways, and why?\n\
 \n\
-<msg key= "server.portals.incomplete.description"/>
+<msg key="server.portals.incomplete.description"/>
 portals.oasis.description = Un Feran valorise la liberté par-dessus tout, et cette liberté n'est nulle part plus incarnée que dans les vents de Windrider Valley.\n\
 \n\
 It was here that they sought refuge in the darkest years of their history, setting up camps where the towering canyon walls might hide them from view.\n\
 \n\
-<msg key= "server.portals.incomplete.description"/>
+<msg key="server.portals.incomplete.description"/>
 portals.jungles.description = Au plus profond des terres désolées laissées par une ancienne civilisation, un havre primordial prospère.\n\
 \n\
-<msg key= "server.portals.incomplete.description"/>
+<msg key="server.portals.incomplete.description"/>
 portals.undefined.obj1 = [TMP] Faire quelque chose ?
 portals.undefined.tip1 = [TMP] Soyez prêt !
-portals.taiga.tip1 = <color is= "#05c09a">Une bête mythique dort ici, liée dans un\n\
+portals.taiga.tip1 = <color is="#05c09a">Une bête mythique dort ici, liée dans un\n\
 eternal slumber.</color>
-portals.hederas_lair.tip1 = <color is= "#05c09a">Une menace vorace se cache au cœur du marais.</color>
-portals.hederas_lair.tip2 = <color is= "#05c09a">Les bas-fonds troubles abritent une faune dangereuse.</color>
-portals.windsurf_valley.tip1 = <color is= "#05c09a">À l'occasion, une tour des mages peut être trouvée ici.</color>
+portals.hederas_lair.tip1 = <color is="#05c09a">Une menace vorace se cache au coeur du marais.</color>
+portals.hederas_lair.tip2 = <color is="#05c09a">Les bas-fonds troubles abritent une faune dangereuse.</color>
+portals.windsurf_valley.tip1 = <color is="#05c09a">À l'occasion, une tour des mages peut être trouvée ici.</color>
 portals.tags.orbis = [TMP] Orbis
 portals.tabs.zone1 = [TMP] Zone 1
 portals.tags.corrupted = [TMP] Corruption
@@ -7779,7 +7779,7 @@ ui.slotName.trinket = Bibelot
 
 # = = =  universe = = = 
 
-universe.failedToFindWorld = Impossible de trouver{lastWorldName}. le monde a été réinitialisé à{name}
+universe.failedToFindWorld = Impossible de trouver{lastWorldName}. le monde a été réinitialisé à {name}
 universe.zoneDiscovered = Région découverte
 universe.addWorld.alreadyExists = Le monde portant le nom «{worldName}» existe déjà !
 universe.addWorld.alreadyExistsDisk = Le monde portant le nom «{worldName}» existe déjà sur le disque !
