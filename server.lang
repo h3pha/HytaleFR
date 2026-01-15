@@ -4446,7 +4446,7 @@ items.Ingredient_Hide_Dark.name = Peau sombre
 items.Ingredient_Hide_Dark.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Dark"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Heavy.name = Peau lourde
 items.Ingredient_Hide_Heavy.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Heavy"/> à un <item is="Bench_Tannery"/>.
-items.Ingredient_Hide_Light.name = Cacher la lumière
+items.Ingredient_Hide_Light.name = Peau légère
 items.Ingredient_Hide_Light.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Light"/> à un <item is="Bench_Tannery"/>.
 items.Ingredient_Hide_Medium.name = Peau moyenne
 items.Ingredient_Hide_Medium.description = [TMP] Peut être traité en <item is="Ingredient_Leather_Medium"/> à un <item is="Bench_Tannery"/>.
